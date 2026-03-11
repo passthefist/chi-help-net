@@ -39,7 +39,7 @@
             setNavbarHeight() {
                 setTimeout(() => {
                     if (this.navbarHidden) {
-                        this.navbarHeight = 0;
+                        {# this.navbarHeight = 0; #}
                     } else {
                         this.navbarHeight = document.querySelector(`[x-ref='navbar']`).offsetHeight;
                     }

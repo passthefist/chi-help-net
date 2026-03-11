@@ -469,9 +469,6 @@
   .scroll-p-lg {
     scroll-padding: var(--space-lg);
   }
-  .scroll-p-xl {
-    scroll-padding: var(--space-xl);
-  }
   .grid-cols-\[minmax\(1px\,var\(--container-base\)\)\] {
     grid-template-columns: minmax(1px,var(--container-base));
   }
@@ -573,9 +570,6 @@
   }
   .overflow-y-hidden {
     overflow-y: hidden;
-  }
-  .scroll-auto {
-    scroll-behavior: auto;
   }
   .scroll-smooth {
     scroll-behavior: smooth;
