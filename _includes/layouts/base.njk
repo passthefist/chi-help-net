@@ -74,7 +74,7 @@
     </head>
 
     <body
-        {# :class="!scrollable && 'overflow-y-hidden'" #}
+        :class="!scrollable && 'pointer-events-none'"
         class="{{ bodyStyles }}">
 
         {# Skip to content link #}

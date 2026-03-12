@@ -12,11 +12,11 @@
 
 {# Theme styles ----------- #}
 
-{% set drawerStyles = "w-full h-dvh overflow-hidden pb-safe-area-bottom overscroll-contain" %} {# applied to the wrapper for the panel #}
+{% set drawerStyles = "w-full h-dvh overflow-hidden pb-safe-area-bottom overscroll-contain overflow-auto" %} {# applied to the wrapper for the panel #}
 {% set panelStyles = "@container content-center bg-surface border-t border-x border-neutral rounded-t-base p-2xs" %}
 {% set backdropStyles = "bg-black opacity-50 transition-opacity transition-discrete" %}
-{% set durationEnter = "duration-1000" %}
-{% set durationLeave = "duration-1000" %}
+{% set durationEnter = "duration-250" %}
+{% set durationLeave = "duration-250" %}
 
 {% if props.alignment === "top" %}
 
@@ -79,8 +79,8 @@
         <div {# wrapper for panel, teleported to the body #}
             x-cloak
             x-ref="drawer"
-            :class="{'invisible': !drawerOpen}"
-            class="flex z-(--z-top) grow fixed overflow-y-auto transition-discrete transition {{ drawerStyles }} {{ drawerAlignmentStyles }}">
+            :class="{'invisible': !drawerOpen, 'pointer-events-auto' : !scrollable}"
+            class="flex z-(--z-top) grow fixed overflow-y-auto transition-discrete transition-all {{ drawerStyles }} {{ drawerAlignmentStyles }}">
 
             {# Panel – thing that transitions #}
             <div
@@ -104,9 +104,9 @@
             <div
                 x-show="drawerOpen"
                 x-transition:enter="{{ durationEnter }}"
-                x-transition:enter-start="opacity-0"
+                x-transition:enter-start="opacity-0!"
                 x-transition:leave="{{ durationLeave }}"
-                x-transition:leave-end="opacity-0"
+                x-transition:leave-end="opacity-0!"
                 class="absolute inset-0 z-(--z-lowered) {{ backdropStyles }}">
             </div>
         </div>

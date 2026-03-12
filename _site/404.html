@@ -41,7 +41,7 @@
   font-weight: 550 650;
   font-display: swap;
   src:
-    url("/assets/assistant-variable.ttf") format("truetype"),}</style></head><body class="bg-surface font-body text-neutral text-body-base antialiased flex flex-col min-h-dvh w-screen items-center"><a class="absolute top-0 left-0 opacity-0 z-[-1111111]" href="#main" aria-label="skip to main content">Click to skip to main content</a><div x-data="{
+    url("/assets/assistant-variable.ttf") format("truetype"),}</style></head><body :class="!scrollable && 'pointer-events-none'" class="bg-surface font-body text-neutral text-body-base antialiased flex flex-col min-h-dvh w-screen items-center"><a class="absolute top-0 left-0 opacity-0 z-[-1111111]" href="#main" aria-label="skip to main content">Click to skip to main content</a><div x-data="{
         toasts: [],
         add(e) {
             if ( e.detail.toasterId === 'toaster') {
