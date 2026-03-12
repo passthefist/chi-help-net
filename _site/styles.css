@@ -314,9 +314,6 @@
   .inline-flex {
     display: inline-flex;
   }
-  .table {
-    display: table;
-  }
   .h-\(--icon-size\) {
     height: var(--icon-size);
   }
@@ -664,12 +661,6 @@
   .p-sm {
     padding: var(--space-sm);
   }
-  .p-xs {
-    padding: var(--space-xs);
-  }
-  .px-2xs {
-    padding-inline: var(--space-2xs);
-  }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
   }
@@ -697,9 +688,6 @@
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
   }
-  .py-base-y {
-    padding-block: var(--space-base-y);
-  }
   .py-lg {
     padding-block: var(--space-lg);
   }
@@ -718,11 +706,11 @@
   .pb-\[calc\(env\(safe-area-inset-bottom\)\+var\(--announcementBannerBlockSize\)\)\] {
     padding-bottom: calc(env(safe-area-inset-bottom) + var(--announcementBannerBlockSize));
   }
-  .pb-\[calc\(var\(--spacing-base-y\)\+env\(safe-area-inset-bottom\)\)\] {
-    padding-bottom: calc(var(--spacing-base-y) + env(safe-area-inset-bottom));
-  }
   .pb-lg {
     padding-bottom: var(--space-lg);
+  }
+  .pb-safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
   }
   .pb-xs {
     padding-bottom: var(--space-xs);
@@ -897,10 +885,6 @@
   .duration-350 {
     --tw-duration: 350ms;
     transition-duration: 350ms;
-  }
-  .duration-400 {
-    --tw-duration: 400ms;
-    transition-duration: 400ms;
   }
   .duration-500 {
     --tw-duration: 500ms;

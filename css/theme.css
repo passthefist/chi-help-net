@@ -196,6 +196,7 @@
   --spacing-navbar-height: var(--space-navbar-height);
   --spacing-dvh--navbar: calc(100dvh - var(--space-navbar-height));
   --spacing-indent: 1.5ch;
+  --spacing-safe-area-bottom: env(safe-area-inset-bottom);
 
   --spacing-px: var(--default-border-width);
   --spacing-2xs: var(--space-2xs);

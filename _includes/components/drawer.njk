@@ -12,7 +12,7 @@
 
 {# Theme styles ----------- #}
 
-{% set drawerStyles = "w-full h-dvh overflow-hidden" %} {# applied to the wrapper for the panel #}
+{% set drawerStyles = "w-full h-dvh overflow-hidden pb-safe-area-bottom" %} {# applied to the wrapper for the panel #}
 {% set panelStyles = "@container content-center bg-surface border-t border-x border-neutral rounded-t-base p-2xs" %}
 {% set backdropStyles = "bg-black opacity-50" %}
 {% set durationEnter = "duration-250" %}
@@ -27,7 +27,7 @@
 {% elseif props.alignment === "bottom" %}
 
     {% set drawerAlignmentStyles = "flex-col bottom-0 justify-end" %}
-    {% set panelAlignmentStyles = "border-t pb-[calc(var(--spacing-base-y)+env(safe-area-inset-bottom))]" %}
+    {% set panelAlignmentStyles = "border-t pb-base-y)" %}
     {% set transitionStyles = "translate-y-full" %}
 
 {% elseif props.alignment === "right" %}
