@@ -14,7 +14,7 @@
 {# Theme Values ------------------ #}
 
 {% set htmlStyles = "scroll-smooth scroll-p-lg" %}
-{% set bodyStyles = "bg-surface font-body text-neutral text-body-base antialiased flex flex-col min-h-dvh w-screen overflow-x-hidden items-center pb-[calc(env(safe-area-inset-bottom)+var(--announcementBannerBlockSize))]" %}
+{% set bodyStyles = "bg-surface font-body text-neutral text-body-base antialiased flex flex-col min-h-dvh w-screen items-center" %}
 
 {# Other ------------------ #}
 
@@ -74,7 +74,7 @@
     </head>
 
     <body
-        :class="!scrollable && 'overflow-y-hidden'"
+        {# :class="!scrollable && 'overflow-y-hidden'" #}
         class="{{ bodyStyles }}">
 
         {# Skip to content link #}
