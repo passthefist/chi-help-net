@@ -1,8 +1,8 @@
 export default {
-  siteDomain: "localhost:8080",
-  siteTitle: "Sites by Steph Template",
-  siteDescription: "Starter files for a new website!",
+  siteDomain: "https://chi-resource-guide.netlify.app/",
+  siteTitle: "Chicago Community Assistance and Crisis Support Resource Guide",
+  siteDescription: "A list of organizations that can help with issues relating to housing, medical access, and food security.",
   siteImage: "/assets/uploads/og-image.jpg",
   favicon: "/assets/uploads/favicon.png",
-  themeColor: "white",
+  themeColor: "#e9f7ff",
 };

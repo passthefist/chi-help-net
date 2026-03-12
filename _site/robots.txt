@@ -2,6 +2,6 @@
 User-agent: *
 Allow: /
 
-Host: localhost:8080
+Host: https://chi-resource-guide.netlify.app/
 
-Sitemap: localhost:8080/sitemap.xml
+Sitemap: https://chi-resource-guide.netlify.app//sitemap.xml

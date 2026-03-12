@@ -314,6 +314,9 @@
   .inline-flex {
     display: inline-flex;
   }
+  .table {
+    display: table;
+  }
   .h-\(--icon-size\) {
     height: var(--icon-size);
   }
@@ -658,6 +661,15 @@
   .p-2xs {
     padding: var(--space-2xs);
   }
+  .p-sm {
+    padding: var(--space-sm);
+  }
+  .p-xs {
+    padding: var(--space-xs);
+  }
+  .px-2xs {
+    padding-inline: var(--space-2xs);
+  }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
   }
@@ -711,6 +723,9 @@
   }
   .pb-lg {
     padding-bottom: var(--space-lg);
+  }
+  .pb-xs {
+    padding-bottom: var(--space-xs);
   }
   .pl-3 {
     padding-left: calc(var(--spacing) * 3);
@@ -874,6 +889,10 @@
   .duration-200 {
     --tw-duration: 200ms;
     transition-duration: 200ms;
+  }
+  .duration-250 {
+    --tw-duration: 250ms;
+    transition-duration: 250ms;
   }
   .duration-350 {
     --tw-duration: 350ms;

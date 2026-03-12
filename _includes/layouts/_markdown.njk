@@ -8,6 +8,7 @@
 {% from "components/sidebar.njk" import sidebar %}
 {% from "components/teb.njk" import teb %}
 {% from "components/disclosure.njk" import disclosure %}
+{% from "components/divider.njk" import divider %}
 {% from "components/drawer.njk" import drawer %}
 {% from "components/navbar.njk" import navbar with context %}
 
@@ -66,7 +67,7 @@
         props={
             alignment: "bottom",
             triggerProps: {
-                label:{off: "Table of Contents", on: "Table of Contents"},
+                label:{off: "Open Table of Contents", on: "Close Table of Contents"},
                 icon: {off: "list", on: "list"},
                 size:"base",
                 type:"button",
@@ -75,13 +76,23 @@
         },
         attrs={class:"lg:hidden bg-surface border-t border-x border-neutral rounded-t-base w-full p-2xs"}
     ) %}
-        <div class="flex flex-col items-start gap-xs w-full">
-            <h2 class="text-red font-semibold">Table of Contents</h2>
+        <div class="flex flex-col items-start gap-2xs w-full">
+            {{ button({
+                label:{off: "Open Table of Contents", on: "Close Table of Contents"},
+                icon: {off: "list", on: "list"},
+                toggleValue: "drawerOpen",
+                size:"base",
+                type:"button",
+                variant: "ghost"
+            }, {
+                class:"w-full", "@click": "toggleDrawer()", "x-ref":"trigger"
+            }) }}
+            {{ divider() }}
             {{ markdown({
                 content: anchoredContent | toc | safe,
                 overrides: {fontSize: "text-body-base", scale:"2"}
             },{
-                class:"w-full"
+                class:"w-full p-sm pb-xs"
             })}}
         </div>
     {% endcall %}
