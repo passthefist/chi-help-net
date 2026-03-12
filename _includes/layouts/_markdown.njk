@@ -9,7 +9,7 @@
 {% from "components/teb.njk" import teb %}
 {% from "components/disclosure.njk" import disclosure %}
 {% from "components/divider.njk" import divider %}
-{% from "components/drawer.njk" import drawer %}
+{% from "components/drawer-copy.njk" import drawer %}
 {% from "components/navbar.njk" import navbar with context %}
 
 {# Values ------------------------------------------------------------------------------------------------------------------------------ #}
@@ -31,13 +31,13 @@
                 titleTag: "h1"
             }) }}
         {% endcall %}
-        {% call container({size:"base", type: "cols-1", alignment: "center"},{class:"lg:hidden"}) %}
+        {# {% call container({size:"base", type: "cols-1", alignment: "center"},{class:"lg:hidden"}) %}
             {{ disclosure({
                 transform: false,
                 title: "Table of Contents",
                 elaboration: anchoredContent | toc | safe
             }) }}
-        {% endcall %}
+        {% endcall %} #}
     {% endcall %}
     {% call section() %}
         {% call container({size:"base", type:"sidebar"}, {class:"gap-base-x"}) %}
@@ -66,9 +66,10 @@
     {% call drawer(
         props={
             alignment: "bottom",
+            closeButton: true,
             triggerProps: {
                 label:{off: "Open Table of Contents", on: "Close Table of Contents"},
-                icon: {off: "list", on: "list"},
+                icon: {off: "keyboard_arrow_up", on: "keyboard_arrow_down"},
                 size:"base",
                 type:"button",
                 variant: "ghost"
@@ -76,24 +77,16 @@
         },
         attrs={class:"lg:hidden bg-surface border-t border-x border-neutral rounded-t-base w-full p-2xs"}
     ) %}
-        <div class="flex flex-col items-start gap-2xs w-full">
-            {{ button({
-                label:{off: "Open Table of Contents", on: "Close Table of Contents"},
-                icon: {off: "list", on: "close"},
-                toggleValue: "drawerOpen",
-                size:"base",
-                type:"button",
-                variant: "ghost"
-            }, {
-                class:"w-full", "@click": "toggleDrawer()", "x-ref":"trigger"
-            }) }}
-            {{ divider() }}
-            {{ markdown({
-                content: anchoredContent | toc | safe,
-                overrides: {fontSize: "text-body-base", scale:"2"}
-            },{
-                class:"w-full p-sm pb-xs"
-            })}}
-        </div>
+                {{ divider() }}
+        {% call section({},{class:"gap-2xs"}) %}
+            {% call container({size:"base", type: "cols-1", alignment: "center"},{class:"py-sm gap-2xs"}) %}
+                {{ markdown({
+                    content: anchoredContent | toc | safe,
+                    overrides: {fontSize: "text-body-base", scale:"2"}
+                },{
+                    class:"w-full"
+                })}}
+            {% endcall %}
+        {% endcall %}
     {% endcall %}
 {% endblock %}

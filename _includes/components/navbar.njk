@@ -18,7 +18,7 @@
 {% set themeAlignment = "left" %}
 {% set drawerOnNarrow = false %}
 
-{% set navbarStyles = "@container z-(--z-top) bg-blue-light border-b border-transparent py-xs md:py-base-y transition duration-500" %}
+{% set navbarStyles = "@container z-(--z-elevated) bg-blue-light border-b border-transparent py-xs md:py-base-y transition duration-500" %}
 {% set stickyStyles = "max-md:sticky top-0" %}
 {% set onScrollStyles = "max-md:border-neutral!" %}
 {% set onHiddenStyles = "" %}
@@ -37,7 +37,7 @@
 
 {# Wide screen right side content  #}
 {% set rightSide %}
-    {{ button({type:"link", size:"sm", variant:"underline", label:languageButton.text},{href:languageButton.href}) }}
+    {{ button({type:"link", size:"sm", variant:"link", label:languageButton.text},{href:languageButton.href}) }}
 {% endset %}
 
 {# Narrow screen drawer contents – delete to use same content as wide screen right/left sides #}

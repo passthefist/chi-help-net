@@ -25,7 +25,7 @@
     --text-body-lg--line-height: 1.4;
     --color-t-neutral: var(--color-slate-500);
     --color-t-neutral-light: var(--color-slate-400);
-    --color-t-action: var(--color-blue);
+    --color-t-link: var(--color-blue);
     --color-border-neutral: var(--color-slate-300);
     --color-bg-neutral: var(--color-slate-200);
     --container-narrow: 56rem;
@@ -568,9 +568,6 @@
   .justify-self-center {
     justify-self: center;
   }
-  .overflow-auto {
-    overflow: auto;
-  }
   .overflow-hidden {
     overflow: hidden;
   }
@@ -666,9 +663,6 @@
   .p-2xs {
     padding: var(--space-2xs);
   }
-  .p-sm {
-    padding: var(--space-sm);
-  }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
   }
@@ -699,6 +693,9 @@
   .py-lg {
     padding-block: var(--space-lg);
   }
+  .py-sm {
+    padding-block: var(--space-sm);
+  }
   .py-xl {
     padding-block: var(--space-xl);
   }
@@ -722,9 +719,6 @@
   }
   .pb-safe-area-bottom {
     padding-bottom: env(safe-area-inset-bottom);
-  }
-  .pb-xs {
-    padding-bottom: var(--space-xs);
   }
   .pl-3 {
     padding-left: calc(var(--spacing) * 3);
@@ -834,7 +828,7 @@
   .text-pretty {
     text-wrap: pretty;
   }
-  .text-action {
+  .text-link {
     color: var(--color-blue);
   }
   .text-neutral {
@@ -920,10 +914,6 @@
   .duration-500 {
     --tw-duration: 500ms;
     transition-duration: 500ms;
-  }
-  .duration-1000 {
-    --tw-duration: 1000ms;
-    transition-duration: 1000ms;
   }
   .outline-none {
     --tw-outline-style: none;

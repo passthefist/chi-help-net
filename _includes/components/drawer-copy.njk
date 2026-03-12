@@ -1,0 +1,107 @@
+{# Nested Components ------------------------------------------------------------------------------------------------------------------- #}
+
+{% from "snippets/loopAttrs.njk" import loopAttrs %}
+{% from "components/button.njk" import button %}
+{% from "components/container.njk" import container %}
+
+{# Macro ------------------------------------------------------------------------------------------------------------------------------- #}
+
+{% macro drawer(props={}, attrs={}) %}
+
+{# Values ------------------------------------------------------------------------------------------------------------------------------ #}
+
+{# Theme styles ----------- #}
+
+{% set drawerStyles = "w-full h-dvh overflow-hidden pb-safe-area-bottom overscroll-contain" %} {# applied to the wrapper for the panel #}
+{% set panelStyles = "bg-surface border-neutral gap-2xs p-2xs overscroll-contain" %}
+{% set backdropStyles = "bg-black opacity-50 transition-opacity transition-discrete overscroll-contain" %}
+{% set durationEnter = "duration-250" %}
+{% set durationLeave = "duration-250" %}
+
+{% if props.alignment === "top" %}
+
+    {% set drawerAlignmentStyles = "flex-col top-navbar-height" %}
+    {% set panelAlignmentStyles = "border-b" %}
+    {% set transitionStyles = "-translate-y-full" %}
+
+{% elseif props.alignment === "bottom" %}
+
+    {% set drawerAlignmentStyles = "flex-col bottom-0 justify-end" %}
+    {% set panelAlignmentStyles = "border-t pb-base-y rounded-t-base" %}
+    {% set transitionStyles = "translate-y-full" %}
+
+{% elseif props.alignment === "right" %}
+
+    {% set drawerAlignmentStyles = "flex top-navbar-height justify-end" %}
+    {% set panelAlignmentStyles = "grow border-l max-w-[80%]" %}
+    {% set transitionStyles = "translate-x-full" %}
+
+{% elseif props.alignment === "left" %}
+
+    {% set drawerAlignmentStyles = "flex top-navbar-height justify-start" %}
+    {% set panelAlignmentStyles = "grow border-r max-w-[80%]" %}
+    {% set transitionStyles = "-translate-x-full" %}
+
+{% endif %}
+
+{# Other ------------------ #}
+
+{# ------------------------------------------------------------------------------------------------------------------------------------- #}
+
+<div data-drawer
+    {{ loopAttrs(attrs) }}
+    x-data="{
+        drawerOpen: false,
+        toggleDrawer() {
+            this.drawerOpen = !this.drawerOpen
+        }
+    }"
+    class="flex {{ attrs.class }}">
+    {{ button(props.triggerProps | assign({toggleValue: "drawerOpen"}), {class:"grow", "@click": "toggleDrawer", "x-ref":"trigger"}) }}
+
+    <template x-teleport="body">
+        <div
+            x-show="drawerOpen"
+            role="dialog"
+            aria-modal="true"
+            aria-label="{{ props.ariaLabel }}"
+            @keydown.escape.prevent.stop="toggleDrawer"
+            class="fixed z-(--z-top) inset-0">
+
+            {# Backdrop ------------------ #}
+            <div
+                x-show="drawerOpen"
+                x-transition:enter="{{ durationEnter }}"
+                x-transition:enter-start="opacity-0!"
+                x-transition:leave="{{ durationLeave }}"
+                x-transition:leave-end="opacity-0!"
+                class="fixed inset-0 z-(--z-lowered) {{ backdropStyles }}">
+            </div>
+
+            {# Panel ------------------ #}
+            <div
+                x-ref="panelWrapper"
+                @click="toggleDrawer"
+                class="relative h-full w-full flex {{ drawerAlignmentStyles }}">
+                <div
+                    x-show="drawerOpen"
+                    x-transition:enter="{{ durationEnter }}"
+                    x-transition:enter-start="{{ transitionStyles }}"
+                    x-transition:leave="{{ durationLeave }}"
+                    x-transition:leave-end="{{ transitionStyles }}"
+                    x-trap.noscroll.inert="drawerOpen"
+                    @click.stop
+                    class="flex flex-col {{ panelStyles }} {{ panelAlignmentStyles }}">
+                    {% if props.closeButton %}
+                        {{ button(props.triggerProps | assign({toggleValue: "drawerOpen"}), {class:"w-full", "@click": "toggleDrawer", "x-ref":"trigger"}) }}
+                    {% endif %}
+                    {% if caller %}
+                        {{ caller() | safe }}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </template>
+</div>
+
+{% endmacro %}
