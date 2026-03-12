@@ -15,8 +15,8 @@
 {% set drawerStyles = "w-full h-dvh overflow-hidden pb-safe-area-bottom overscroll-contain" %} {# applied to the wrapper for the panel #}
 {% set panelStyles = "@container content-center bg-surface border-t border-x border-neutral rounded-t-base p-2xs" %}
 {% set backdropStyles = "bg-black opacity-50 transition-opacity transition-discrete" %}
-{% set durationEnter = "duration-250" %}
-{% set durationLeave = "duration-250" %}
+{% set durationEnter = "duration-1000" %}
+{% set durationLeave = "duration-1000" %}
 
 {% if props.alignment === "top" %}
 
@@ -27,7 +27,7 @@
 {% elseif props.alignment === "bottom" %}
 
     {% set drawerAlignmentStyles = "flex-col bottom-0 justify-end" %}
-    {% set panelAlignmentStyles = "border-t pb-base-y)" %}
+    {% set panelAlignmentStyles = "border-t pb-base-y" %}
     {% set transitionStyles = "translate-y-full" %}
 
 {% elseif props.alignment === "right" %}

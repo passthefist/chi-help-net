@@ -711,6 +711,9 @@
   .pb-\[calc\(env\(safe-area-inset-bottom\)\+var\(--announcementBannerBlockSize\)\)\] {
     padding-bottom: calc(env(safe-area-inset-bottom) + var(--announcementBannerBlockSize));
   }
+  .pb-base-y {
+    padding-bottom: var(--space-base-y);
+  }
   .pb-lg {
     padding-bottom: var(--space-lg);
   }
