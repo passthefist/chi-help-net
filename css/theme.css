@@ -33,7 +33,8 @@
   /* Font sizes -------------------------------------------------------------------------------------------------------------------------- */
   --icon-size: 1.45em;
   --body-sm--font-size: 17.5px;
-  --body-base--font-size: 19px;
+  --body-base--font-size: 20px;
+  --body-base--line-height: 1.35;
   --body-lg--font-size: 20px;
   --heading-sm--font-size: 21px;
   --heading-base--font-size: 24px;
@@ -42,6 +43,7 @@
   @media screen and (min-width: 600px) {
     --body-sm--font-size: 18px;
     --body-base--font-size: 20.5px;
+    --body-base--line-height: 1.45;
     --body-lg--font-size: 23px;
     --heading-sm--font-size: 22.5px;
     --heading-base--font-size: 26px;
@@ -49,29 +51,30 @@
   }
 
   @media screen and (min-width: 850px) {
-    --body-sm--font-size: 21.5px;
-    --body-base--font-size: 24px;
-    --body-lg--font-size: 26px;
-    --heading-xs--font-size: 24px;
+    --body-sm--font-size: 20.5px;
+    --body-base--font-size: 22px;
+    --body-lg--font-size: 25px;
+    --heading-xs--font-size: 22px;
     --heading-sm--font-size: 28px;
     --heading-base--font-size: 34px;
-    --heading-lg--font-size: 62px;
+    --heading-lg--font-size: 60px;
   }
 
   /* Spacings -------------------------------------------------------------------------------------------------------------------------- */
+
   --space-none: 0;
-  --space-2xs: 0.5rem;
-  --space-xs: 1rem;
-  --space-sm: 1.5rem;
-  --space-base-x: 1rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1.25rem;
+  --space-base-x: 1.25rem;
   --space-base-y: 2rem;
   --space-lg: 3rem;
   --space-xl: 4rem;
 
   @media screen and (min-width: 600px) {
     --space-none: 0;
-    --space-2xs: 0.75rem;
-    --space-xs: 1.25rem;
+    --space-2xs: 0.5rem;
+    --space-xs: 1rem;
     --space-sm: 2rem;
     --space-base-y: 3rem;
     --space-base-x: 3rem;
@@ -119,7 +122,7 @@
   --text-body-sm: var(--body-sm--font-size);
   --text-body-sm--line-height: 1.4;
   --text-body-base: var(--body-base--font-size);
-  --text-body-base--line-height: 1.45;
+  --text-body-base--line-height: var(--body-base--line-height);
   --text-body-base--letter-spacing: -0.005em;
   --text-body-lg: var(--body-lg--font-size);
   --text-body-lg--line-height: 1.4;
@@ -141,11 +144,12 @@
   --color-current: currentColor;
   --color-inherit: inherit;
   --color-transparent: transparent;
+  --color-black: black;
 
   /* Text ------------------------------------ */
 
-  --color-t-neutral: var(--color-slate);
-  --color-t-neutral-light: var(--color-slate-light);
+  --color-t-neutral: var(--color-slate-500);
+  --color-t-neutral-light: var(--color-slate-400);
 
   --color-t-action: var(--color-blue);
   --color-t-warning: var(--color-red);
@@ -154,13 +158,13 @@
 
   /* Border ------------------------------------ */
 
-  --color-border-neutral: var(--color-slate-lighter);
+  --color-border-neutral: var(--color-slate-300);
 
   /* Background ------------------------------------ */
 
-  --color-bg-neutral: var(--color-slate-lightest);
+  --color-bg-neutral: var(--color-slate-200);
 
-  --color-bg-surface: var(--color-slate-lightest);
+  --color-bg-surface: var(--color-slate-100);
 
   --color-bg-blue: var(--color-blue-light);
   --color-bg-blue-light: var(--color-blue-lighter);
@@ -193,6 +197,7 @@
   --spacing-dvh--navbar: calc(100dvh - var(--space-navbar-height));
   --spacing-indent: 1.5ch;
 
+  --spacing-px: var(--default-border-width);
   --spacing-2xs: var(--space-2xs);
   --spacing-xs: var(--space-xs);
   --spacing-sm: var(--space-sm);
@@ -218,6 +223,7 @@
   --radius-base: calc(var(--size-tube-base) * 0.15);
   --radius-lg: calc(var(--size-tube-lg) * 0.15);
   --radius-square: 160px;
+  --default-border-width: 1.5px;
 
   /* Animations ------------------------------------------------------------------------------------------------------------------------ */
 

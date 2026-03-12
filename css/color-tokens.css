@@ -1,8 +1,9 @@
 :root {
-  --color-slate: #002939;
-  --color-slate-light: #405158;
-  --color-slate-lighter: #b5bec1;
-  --color-slate-lightest: #fefdfd;
+  --color-slate-500: #002939;
+  --color-slate-400: #405158;
+  --color-slate-300: #b5bec1;
+  --color-slate-200: #ebeeef;
+  --color-slate-100: #fefdfd;
 
   --color-red: #d80d0d;
   --color-red-light: #e4002b;

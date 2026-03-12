@@ -2,12 +2,27 @@
 
 {% from "snippets/loopAttrs.njk" import loopAttrs %}
 
-{# ------------------------------------------------------------------------------------------------------------------------------------- #}
+{# Macro ------------------------------------------------------------------------------------------------------------------------------- #}
 
 {% macro icon(props={},attrs={}) %}
 
-    <svg class="{{ attrs.class }} text-icon w-(--icon-size) h-(--icon-size) -mx-[.25em] fill-current" {{ loopAttrs(attrs) }} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <text x="0%" y="50%" font-size="24" dominant-baseline="central" text-anchor="start">{{ props.icon }}</text>
+    <svg data-icon
+        alt="{{ props.glyph | replace("_", " ") }} icon"
+        {{ loopAttrs(attrs) }}
+        class="{{ attrs.class }} text-icon w-(--icon-size) h-(--icon-size) -mx-[.25em] fill-current select-none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <text x="0%" y="50%" font-size="24" dominant-baseline="central" text-anchor="start">{{ props.glyph }}</text>
     </svg>
 
 {% endmacro %}
+
+{# Component Documentation ------------------------------------------------------------------------------------------------------------- #}
+
+{% set iconMeta = {
+    args: '{{ icon(props={glyph: ""} ,attrs={}) }}',
+description: "
+- `props.glyph` should be the name of a glyph from the [Material Symbols library](https://fonts.google.com/icons)
+- Must include the glyph name in the `_data/icons.json` file array so the font is loaded properly.
+"
+} %}

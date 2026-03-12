@@ -10,7 +10,7 @@
 {# Values ----------- #}
 
 {% set buttonWrapperStyles = {
-    shared: "shadow-depth translate-y-[6px]",
+    shared: "",
     sizes: {
         base: "rounded-base",
         sm: "rounded-sm",
@@ -18,16 +18,15 @@
         xl: "rounded-lg"
     },
     variants: {
-        primary: "bg-action",
-        secondary: "bg-grey"
+        ghost: ""
     }
 } %}
 
 {% set buttonStyles = {
     shared: "transition-transform decoration-[1.5px] underline-offset-3",
     button: {
-        styles: "shadow-highlight hover:underline translate-y-[-6px] hover:translate-y-[-5px] active:translate-y-[-2px] ease-spring duration-350",
-        on: "translate-y-[-2px]!",
+        styles: "hover:underline",
+        on: "",
         sizes: {
             base: "text-button-base min-w-tube-base min-h-tube-base rounded-base gap-xs px-xs py-2xs",
             sm: "text-body-base min-h-tube-sm min-w-tube-sm rounded-sm gap-2xs px-xs py-2xs",
@@ -35,8 +34,7 @@
             xl: "text-heading-sm min-h-tube-xl min-w-tube-xl rounded-lg gap-sm px-sm py-2xs"
         },
         variants: {
-            primary: "text-neutral bg-action-light hover:bg-action-lighter border border-neutral",
-            secondary: "text-neutral bg-neutral-lighter hover:bg-neutral-lightest border border-neutral"
+            ghost: "text-neutral hover:bg-neutral"
         }
     },
     link: {

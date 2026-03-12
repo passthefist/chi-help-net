@@ -1,0 +1,53 @@
+{# Nested Components ------------------------------------------------------------------------------------------------------------------- #}
+
+{% from "snippets/loopAttrs.njk" import loopAttrs %}
+{% from "components/markdown.njk" import markdown %}
+{% from "components/icon.njk" import icon %}
+
+{# Macro ------------------------------------------------------------------------------------------------------------------------------- #}
+
+{% macro disclosure(props={}, attrs={}) %}
+
+{# Values ------------------------------------------------------------------------------------------------------------------------------ #}
+
+{% set disclosureStyles = "border rounded-base bg-surface border-neutral first:-mt-item overflow-hidden" %}
+{% set iconStyles = "text-neutral" %}
+{% set summaryStyles = "p-2xs text-heading-xs text-red underline-offset-3 decoration-from-font gap-2xs hover:underline" %}
+{% set contentStyles = "pl-base-x pr-2xs py-2xs text-body-base" %}
+
+<style>
+    summary::-webkit-details-marker { display: none }
+</style>
+
+{# ------------------------------------------------------------------------------------------------------------------------------------- #}
+
+<div data-disclosure {{ loopAttrs() }} class="{{attrs.class}}">
+    <details
+        {% if item.isOpen %}open{% endif %}
+        {{ loopAttrs(item.attrs) }}
+        class="w-full flex flex-col group {{ disclosureStyles }}">
+        <summary class="flex items-center justify-start appearance-none cursor-pointer {{ summaryStyles }}">
+            {{ icon(props={glyph: "arrow_right"} ,attrs={class:"group-open:hidden " + iconStyles}) }}
+            {{ icon(props={glyph: "arrow_drop_down"} ,attrs={class:"hidden group-open:block " + iconStyles}) }}
+            <h2>{{ props.title }}</h2>
+        </summary>
+
+        {{ markdown({content:props.elaboration, transform:props.transform },{class: contentStyles }) }}
+
+    </details>
+</div>
+
+{% endmacro %}
+
+{# Component Documentation ------------------------------------------------------------------------------------------------------------- #}
+
+{% set disclosureMeta = {
+args: '{{ disclosure(
+    props={
+        title: "",
+        elaboration: "",
+        isOpen: false
+    },
+    attrs={}
+) }}'
+} %}

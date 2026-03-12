@@ -28,7 +28,7 @@
 
 {# Logo #}
 {% set navbarLogo %}
-    {{ logo({class:"h-[56px] md:h-[86px]"}) }}
+    {{ logo({class:"h-[64px] md:h-[86px]"}) }}
 {% endset %}
 
 {# Wide screen left side content  #}
@@ -59,14 +59,14 @@
 <nav data-navbar
     {{ loopAttrs(attrs) }}
     x-ref="navbar"
-    :class="{'{{ onHiddenStyles }}' : navbarHidden, '{{ onScrollStyles }}' : hasScrolled | !scrollable }"
+    :class="{'{{ onHiddenStyles }}' : navbarHidden, {% if props.sticky %}'{{ onScrollStyles }}' : hasScrolled | !scrollable {% endif %} }"
     class="w-full flex flex-col relative {{ attrs.class }} {{ navbarStyles }} {% if props.sticky %}{{ stickyStyles }}{% endif %}">
 
     {% call section({tag:"div"}) %}
 
         {# wide screen container #}
         <div {% if drawerOnNarrow %}class="hidden xl:block"{% endif %}>
-            {% call container({size: "base", type:"flex"},{class:"items-center justify-between"}) %}
+            {% call container({size: "base", type:"flex"},{class:"items-start justify-between"}) %}
 
                 <div data-slot="left"
                 class="grow flex items-center justify-start flex-wrap {{ itemGap }}

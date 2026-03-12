@@ -34,13 +34,13 @@
 .markdown h2 {
   font-size: calc(1em * var(--md-scale));
   margin-block-start: var(--space-5);
-  line-height: 1.35;
+  line-height: calc(var(--md-line-height) * 0.85);
 }
 
 .markdown h3 {
   font-size: calc(1em * ((var(--md-scale) - 1) / 2.5 + 1));
   margin-block-start: var(--space-4);
-  line-height: 1.45;
+  line-height: calc(var(--md-line-height) * 0.85);
 }
 
 /* lists */
@@ -96,11 +96,10 @@
 
 /* blockquote */
 .markdown blockquote {
-  padding: var(--space-1) var(--space-2);
+  padding: var(--space-1) var(--space-1);
   border: var(--md-border-width) solid var(--color-border-neutral);
   margin-block-start: var(--space-3);
   border-radius: var(--md-radius);
-  background-color: var(--color-bg-blue-light);
   position: relative;
 
   &:empty {
@@ -171,7 +170,7 @@
 .markdown b *:not(a),
 .markdown strong,
 .markdown strong *:not(a) {
-  font-weight: 600;
+  font-weight: bold;
   color: var(--md-heading-color);
 }
 

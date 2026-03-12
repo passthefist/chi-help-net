@@ -20,13 +20,13 @@ Most of the resources listed here offer many more services than mentioned in thi
 
 24/7/365 phone line (operated by United Way) that can connect and refer to resources for non-emergency social services or personal needs. Examples are food assistance, housing, substance use, childcare, clothes, employment, and healthcare. Note that 211 does not offer most services directly, rather they can point you to where to find them. For city services and information directly, call 311.
 
-**Website:** [211metrochicago.org/](https://211metrochicago.org/)
+**Website:** [211metrochicago.org](https://211metrochicago.org/)
 
 ### Chicago Public Library Branches
 
 Other than library services, branch locations operate as physical community resource hubs that you can walk into without knowing what you need and at least get oriented. Some have an on-site social worker, offer job application/resume help, and can just be a safe warm/cool daytime space to be in. A few locations even have free public health vending machines that carry menstrual products, hygiene kits, socks, underwear, Narcan, drug test strips, etc. They can also help navigate 211 and 311 resources. Call individual branch locations to confirm resources, or just walk into any and ask the front desk.
 
-**Website:** [chipublib.bibliocommons.com/v2/locations/](https://chipublib.bibliocommons.com/v2/locations/)
+**Website:** [chipublib.bibliocommons.com/v2/locations](https://chipublib.bibliocommons.com/v2/locations/)
 
 ### Calling 311
 
@@ -54,7 +54,7 @@ Already listed, but an operator can help connect you to emergency housing, finan
 
 Offers multiple resources to assert tenant’s rights to assist with evictions, landlord disputes, housing violations, legal aid, and community organizing. They have a hotline you can call for quick assistance.
 
-**Website:** [tenants-rights.org/](https://www.tenants-rights.org/)
+**Website:** [tenants-rights.org](https://www.tenants-rights.org/)
 
 **Call:** 773-292-4988 (open M-F, 1:00-5:00 pm).
 
@@ -63,13 +63,13 @@ Offers multiple resources to assert tenant’s rights to assist with evictions, 
 ### Chicago Housing Initiative (Eviction Help, Legal Aid, and More Resources)
 
 The Chicago Housing Initiative helps connect tto groups that offer help with emergency housing, finding low-income housing, cooling/heating assistance, as well as legal support.
-Website: [chicagohousinginitiative.org/](https://www.chicagohousinginitiative.org/)
+**Website:** [chicagohousinginitiative.org](https://www.chicagohousinginitiative.org/)
 
 ### All Chicago (Housing Security)
 
 All Chicago is a non-profit that provides resources and solutions for housing security, such as emergency financial assistance.
 
-**Website:** [allchicago.org/](https://allchicago.org/)
+**Website:** [allchicago.org](https://allchicago.org/)
 
 ---
 
@@ -81,13 +81,13 @@ These resources can help with food access, including free grocery delivery, hot 
 
 They are the largest food bank in Chicago, with multiple locations around the city. They also have food assistance programs and can assist with SNAP/Link, Medicaid, and other benefits.
 
-**Website:** [chicagosfoodbank.org/](https://www.chicagosfoodbank.org/)
+**Website:** [chicagosfoodbank.org](https://www.chicagosfoodbank.org/)
 
 ### Community Kitchen Chicago (Master List of Local Organizations, Free Meals)
 
 They support local food systems and feed people meals free of charge from one of their locations. Additionally, they have a giant list of resources and organizations for all things food related. Check for neighborhood groups providing free grocery delivery, food pantries, hot food programs, and more.
 
-**Website:** [communitykitchenchicago.org/](https://www.communitykitchenchicago.org/)
+**Website:** [communitykitchenchicago.org](https://www.communitykitchenchicago.org/)
 
 **Big Resource List!!!:** [https://www.communitykitchenchicago.org/mutual-aid-map](https://www.communitykitchenchicago.org/mutual-aid-map)
 
@@ -95,7 +95,7 @@ They support local food systems and feed people meals free of charge from one of
 
 17 free, walk-up access locations stocked with fresh food, dry goods, and household items. Most locations are a public fridge and pantry maintained by community volunteers, neighborhood donors, and local businesses. Check website for a map of fridge locations.
 
-**Website:** [thelovefridge.com/](https://www.thelovefridge.com/)
+**Website:** [thelovefridge.com](https://www.thelovefridge.com/)
 
 ---
 
@@ -106,7 +106,7 @@ These are organizations that work with the queer and trans community offering se
 ### Howard Brown Broadway Youth Center (Medical, Mental Health, Dental, Social Services)
 
 Offered through Howard Brown Health, the Broadway Youth Center provides medical, social, and mental wellness services to young people aged 12 to 24 regardless of ability to pay. They also have drop-in services like showers and laundry for people experiencing homelessness or housing instability. Located in Uptown on the North Side of the city.
-**Website:** [howardbrown.org/clinic_location/broadway-youth-center/](https://howardbrown.org/clinic_location/broadway-youth-center/)
+**Website:** [howardbrown.org/clinic_location/broadway-youth-center](https://howardbrown.org/clinic_location/broadway-youth-center/)
 
 **Phone:** 773.388.1600
 
@@ -116,7 +116,7 @@ Offered through Howard Brown Health, the Broadway Youth Center provides medical,
 
 BSA is a Black trans-led LGBTQ+ Center providing services, programs, and an affirming space where trans and LGBQ+ people are centered, and all are welcome and served. They operate a clinic offering free STD testing along with medical referrals for a variety of care, walk-in appointments with social workers, community pantry, support groups, and temporary housing initiatives. Located in Hyde Park on the South Side of the city.
 
-**Website:** [bravespacealliance.org/](https://www.bravespacealliance.org/)
+**Website:** [bravespacealliance.org](https://www.bravespacealliance.org/)
 
 **Address:** 1515 E. 52nd Place, 3rd Floor
 
@@ -140,7 +140,7 @@ Planned Parenthood is a national organization often thought of as abortion clini
 
 AHF Healthcare Centers provide primary care services designed primarily for HIV-positive clients, but being HIV-positive is not a requirement to receive care. They also offer standard health services like pharmaceutical and primary care.
 
-**Appointments:** [hivcare.org/ahf-services/](https://hivcare.org/ahf-services/)
+**Appointments:** [hivcare.org/ahf-services](https://hivcare.org/ahf-services/)
 
 **Locations**
 
@@ -152,7 +152,7 @@ AHF Healthcare Centers provide primary care services designed primarily for HIV-
 
 Center on Halsted is a comprehensive community center dedicated to the health and well-being of LGBTQ people in Chicagoland offering such things as employment services, mental health, social programs, and community events. This includes mental health support with therapy, gender-affirming care letters, trauma services, support groups, and assistance for violence survivors. They also have a training and job placement program for those looking to find work in the culinary field as well as training to improve tech skills.
 
-**Website:** [centeronhalsted.org/](https://www.centeronhalsted.org/)
+**Website:** [centeronhalsted.org](https://www.centeronhalsted.org/)
 
 **Locations**
 
@@ -170,7 +170,7 @@ These are resources to assist with medical care access and affordability. Some C
 
 CareLink is a free program that helps Cook County residents cover or discount the cost of most services at any Cook County Health facility.
 
-**Website:** [cookcountyhealth.org/carelink/](https://cookcountyhealth.org/carelink/)
+**Website:** [cookcountyhealth.org/carelink](https://cookcountyhealth.org/carelink/)
 
 ### Community Health Centers (Free/Affordable Clinics)
 
@@ -188,7 +188,7 @@ Can assist with finding free tampons, pads, and other period products. Does not 
 
 Can assist with finding free diapers and baby hygiene supplies. Limited direct donations to individuals, contact to find distribution locations near you.
 
-**Website:** [diaperchicago.org/](https://www.diaperchicago.org/)
+**Website:** [diaperchicago.org](https://www.diaperchicago.org/)
 
 ---
 
@@ -200,15 +200,15 @@ These are organizations that have both job training and placement programs that 
 
 CCWP is an umbrella coordinating body that oversees workforce development across both the City and Cook County. They’re functionally a triage and routing system for employment connecting job seekers with 2000+ employers in the area. Placement isn’t guaranteed but can be faster depending on work history, or they offer training to help fill skill gaps including transitional jobs as short-term employment while building skills. The Chicago Dept. of Family & Support Services uses them, but direct contact can be useful to avoid additional bureaucracy (at the loss of comprehensiveness).
 
-**Website:** [chicookworks.org/](https://chicookworks.org/)
+**Website:** [chicookworks.org](https://chicookworks.org/)
 
 ### Center on Halsted
 
-**Website:** [centeronhalsted.org/](https://www.centeronhalsted.org/)
+**Website:** [centeronhalsted.org](https://www.centeronhalsted.org/)
 
 ### Brave Space Alliance
 
-**Website:** [bravespacealliance.org/](https://www.bravespacealliance.org/)
+**Website:** [bravespacealliance.org](https://www.bravespacealliance.org/)
 
 ### Chicago Department of Family & Support Services
 
@@ -226,7 +226,7 @@ These are some local, neighborhood run mutual aid groups servicing communities a
 
 **Service Area:** Logan Square
 
-**Website:** [logansquaremutualaid.org/](https://logansquaremutualaid.org/)
+**Website:** [logansquaremutualaid.org](https://logansquaremutualaid.org/)
 
 ### Humboldt Park Solidarity Network
 
@@ -239,50 +239,50 @@ These are some local, neighborhood run mutual aid groups servicing communities a
 ### West Side Mutual Aid
 
 **Service Area:** Garfield Park, Austin, North Lawndale, Hermosa, West Loop
-**Website:** [westsidemutualaid.org/](https://westsidemutualaid.org/)
+**Website:** [westsidemutualaid.org](https://westsidemutualaid.org/)
 
 ### 19th Ward Mutual Aid
 
 **Service Area:** Mount Greenwood, Morgan Park, and Beverly
 
-**Website:** [http://19aid.com/](http://19aid.com/)
+**Website:** [http://19aid.com](http://19aid.com/)
 
 ### Albany Park Mutual Aid
 
 **Service Area:** Avondale
 
-**Website:** [albanyparkmutualaid.com/](https://www.albanyparkmutualaid.com/)
+**Website:** [albanyparkmutualaid.com](https://www.albanyparkmutualaid.com/)
 
 ### Edgewater Mutual Aid Network
 
 **Service Area:** Edgewater
 
 **Free Store:** 1020 W Bryn Mawr Ave (Open Saturdays from 12:15 p.m. - 1:30 p.m)
-**Website:** [edgewatermutualaid.org/](https://edgewatermutualaid.org/)
+**Website:** [edgewatermutualaid.org](https://edgewatermutualaid.org/)
 
 ### Gage Park Latinx Council
 
 **Service Area:** Gage Park
 
-**Website:** [gplxc.org/](https://www.gplxc.org/)
+**Website:** [gplxc.org](https://www.gplxc.org/)
 
 ### Irving Park Mutual Aid
 
 **Service Area:** Irving Park, Portage Park
 
-**Instagram:** [instagram.com/irvingparkmutualaid/](https://www.instagram.com/irvingparkmutualaid/)
+**Instagram:** [instagram.com/irvingparkmutualaid](https://www.instagram.com/irvingparkmutualaid/)
 
 ### Lincoln Square Ravenswood Solidarity Network
 
 **Service Area:** Lincoln Square, Ravenswood
 
-**Website:** [lsrsn.org/](https://www.lsrsn.org/)
+**Website:** [lsrsn.org](https://www.lsrsn.org/)
 
 ### Mayfair Mutual Aid
 
 **Service Area:** Mayfair
 
-**Website:** [mayfairmutualaid.com/](https://www.mayfairmutualaid.com/)
+**Website:** [mayfairmutualaid.com](https://www.mayfairmutualaid.com/)
 
 ### McKinley Park Mutual Aid
 
@@ -294,13 +294,13 @@ These are some local, neighborhood run mutual aid groups servicing communities a
 
 **Service Area:** Northwest Side
 
-**Website:** [northwestsidesolidarity.com/](https://www.northwestsidesolidarity.com/)
+**Website:** [northwestsidesolidarity.com](https://www.northwestsidesolidarity.com/)
 
 ### West Town Mutual Aid
 
 **Service Area:** West Town, Ukrainian Village, Wicker Park, Bucktown
 
-**Website:** [westtownmutualaid.com/](https://www.westtownmutualaid.com/)
+**Website:** [westtownmutualaid.com](https://www.westtownmutualaid.com/)
 
 ### Pilsen Solidarity Network
 
@@ -318,4 +318,4 @@ These are some local, neighborhood run mutual aid groups servicing communities a
 
 **Service Area:** North Side
 
-**Instagram:** [instagram.com/rogersparkfoodnotbombs/](https://www.instagram.com/rogersparkfoodnotbombs/)
+**Instagram:** [instagram.com/rogersparkfoodnotbombs](https://www.instagram.com/rogersparkfoodnotbombs/)

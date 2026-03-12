@@ -7,6 +7,8 @@
 {% from "components/container.njk" import container %}
 {% from "components/sidebar.njk" import sidebar %}
 {% from "components/teb.njk" import teb %}
+{% from "components/disclosure.njk" import disclosure %}
+{% from "components/drawer.njk" import drawer %}
 {% from "components/navbar.njk" import navbar with context %}
 
 {# Values ------------------------------------------------------------------------------------------------------------------------------ #}
@@ -17,7 +19,7 @@
 {# ------------------------------------------------------------------------------------------------------------------------------------- #}
 
 {% block content %}
-    {{ navbar({sticky: "true"}) }}
+    {{ navbar({sticky: false}) }}
     {% call section({},{class:"gap-lg pb-lg border-b max-md:pt-sm border-neutral bg-blue-light"}) %}
         {% call container({size:"narrow", type: "cols-1", alignment: "left"}) %}
             {{ teb({
@@ -26,13 +28,20 @@
                 title: title,
                 elaboration: elaboration,
                 titleTag: "h1"
-        }, {}) }}
+            }) }}
+        {% endcall %}
+        {% call container({size:"base", type: "cols-1", alignment: "center"},{class:"lg:hidden"}) %}
+            {{ disclosure({
+                transform: false,
+                title: "Table of Contents",
+                elaboration: anchoredContent | toc | safe
+            }) }}
         {% endcall %}
     {% endcall %}
     {% call section() %}
         {% call container({size:"base", type:"sidebar"}, {class:"gap-base-x"}) %}
             {% call sidebar() %}
-                    <section class="flex flex-col items-start gap-xs w-full py-lg">
+                    <div class="flex flex-col items-start gap-xs w-full py-lg">
                         <h2 class="text-red font-semibold">Table of Contents</h2>
                         {{ markdown({
                             content: anchoredContent | toc | safe,
@@ -40,7 +49,7 @@
                         },{
                             class:"w-full"
                         })}}
-                    </section>
+                    </div>
             {% endcall %}
             <div class="overflow-hidden justify-items-center py-lg">
                 {% call markdown({transform: false},{class:"w-full max-w-content"}) %}
@@ -50,4 +59,30 @@
         {% endcall %}
     {% endcall %}
 
+{% endblock %}
+
+{% block bottomDrawer %}
+    {% call drawer(
+        props={
+            alignment: "bottom",
+            triggerProps: {
+                label:{off: "Table of Contents", on: "Table of Contents"},
+                icon: {off: "list", on: "list"},
+                size:"base",
+                type:"button",
+                variant: "ghost"
+            }
+        },
+        attrs={class:"lg:hidden bg-surface border-t border-x border-neutral rounded-t-base w-full p-2xs"}
+    ) %}
+        <div class="flex flex-col items-start gap-xs w-full">
+            <h2 class="text-red font-semibold">Table of Contents</h2>
+            {{ markdown({
+                content: anchoredContent | toc | safe,
+                overrides: {fontSize: "text-body-base", scale:"2"}
+            },{
+                class:"w-full"
+            })}}
+        </div>
+    {% endcall %}
 {% endblock %}
