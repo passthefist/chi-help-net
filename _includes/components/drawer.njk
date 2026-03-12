@@ -14,7 +14,7 @@
 
 {% set drawerStyles = "w-full h-dvh overflow-hidden pb-safe-area-bottom overscroll-contain" %} {# applied to the wrapper for the panel #}
 {% set panelStyles = "@container content-center bg-surface border-t border-x border-neutral rounded-t-base p-2xs" %}
-{% set backdropStyles = "bg-black opacity-50 transition-opacity" %}
+{% set backdropStyles = "bg-black opacity-50 transition-opacity transition-discrete" %}
 {% set durationEnter = "duration-250" %}
 {% set durationLeave = "duration-250" %}
 
@@ -80,7 +80,7 @@
             x-cloak
             x-ref="drawer"
             :class="{'invisible': !drawerOpen}"
-            class="flex z-(--z-top) grow fixed overflow-y-auto {{ drawerStyles }} {{ drawerAlignmentStyles }}">
+            class="flex z-(--z-top) grow fixed overflow-y-auto transition-discrete transition {{ drawerStyles }} {{ drawerAlignmentStyles }}">
 
             {# Panel – thing that transitions #}
             <div
