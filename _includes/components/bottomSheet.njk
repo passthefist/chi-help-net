@@ -1,0 +1,39 @@
+{# Nested Components ------------------------------------------------------------------------------------------------------------------- #}
+
+{% from "snippets/loopAttrs.njk" import loopAttrs %}
+{% from "components/button.njk" import button %}
+{% from "components/section.njk" import section %}
+{% from "components/container.njk" import container %}
+{% from "components/drawer-copy.njk" import drawer %}
+{% from "components/divider.njk" import divider %}
+
+{# Macro ------------------------------------------------------------------------------------------------------------------------------- #}
+
+{% macro bottomSheet(props={}, attrs={}) %}
+
+{# Values ------------------------------------------------------------------------------------------------------------------------------ #}
+
+{# Theme styles ----------- #}
+
+{% set bottomSheetStyles = "bg-surface border-t border-x border-neutral rounded-t-base w-full p-2xs" %}
+
+{# Other ------------------ #}
+
+{# ------------------------------------------------------------------------------------------------------------------------------------- #}
+
+<div data-bottomSheet {{ loopAttrs(attrs) }} class="{{ attrs.class }} fixed bottom-0 z-(--z-elevated) w-full pb-safe-area-bottom">
+{% call drawer(
+        props={
+            alignment: "bottom",
+            triggerProps: props.triggerProps
+        },
+        attrs={class:bottomSheetStyles}
+    ) %}
+        {{ button(props.triggerProps | assign({toggleValue: "drawerOpen"}), {class:"w-full", "@click": "toggleDrawer", "x-ref":"trigger"}) }}
+        {{ divider() }}
+        {% call section({},{class:"gap-2xs"}) %}
+            {{ caller() | safe }}
+        {% endcall %}
+    {% endcall %}
+</div>
+{% endmacro %}

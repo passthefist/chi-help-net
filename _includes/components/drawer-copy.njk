@@ -12,11 +12,10 @@
 
 {# Theme styles ----------- #}
 
-{% set drawerStyles = "w-full h-dvh overflow-hidden pb-safe-area-bottom overscroll-contain" %} {# applied to the wrapper for the panel #}
-{% set panelStyles = "bg-surface border-neutral gap-2xs p-2xs overscroll-contain" %}
-{% set backdropStyles = "bg-black opacity-50 transition-opacity transition-discrete overscroll-contain" %}
-{% set durationEnter = "duration-250" %}
-{% set durationLeave = "duration-250" %}
+{% set panelStyles = "bg-surface border-neutral gap-2xs p-2xs" %}
+{% set backdropStyles = "bg-black opacity-50 transition-opacity" %}
+{% set transitionEnter = "duration-200 ease-in" %}
+{% set transitionLeave = "duration-200 ease-out" %}
 
 {% if props.alignment === "top" %}
 
@@ -27,7 +26,7 @@
 {% elseif props.alignment === "bottom" %}
 
     {% set drawerAlignmentStyles = "flex-col bottom-0 justify-end" %}
-    {% set panelAlignmentStyles = "border-t pb-base-y rounded-t-base" %}
+    {% set panelAlignmentStyles = "border-t rounded-t-base" %}
     {% set transitionStyles = "translate-y-full" %}
 
 {% elseif props.alignment === "right" %}
@@ -56,6 +55,7 @@
             this.drawerOpen = !this.drawerOpen
         }
     }"
+    x-on:resize.window.debounce="drawerOpen = false"
     class="flex {{ attrs.class }}">
     {{ button(props.triggerProps | assign({toggleValue: "drawerOpen"}), {class:"grow", "@click": "toggleDrawer", "x-ref":"trigger"}) }}
 
@@ -71,9 +71,9 @@
             {# Backdrop ------------------ #}
             <div
                 x-show="drawerOpen"
-                x-transition:enter="{{ durationEnter }}"
+                x-transition:enter="{{ transitionEnter }}"
                 x-transition:enter-start="opacity-0!"
-                x-transition:leave="{{ durationLeave }}"
+                x-transition:leave="{{ transitionLeave }}"
                 x-transition:leave-end="opacity-0!"
                 class="fixed inset-0 z-(--z-lowered) {{ backdropStyles }}">
             </div>
@@ -87,16 +87,14 @@
                 {# Actual panel #}
                 <div
                     x-show="drawerOpen"
-                    x-transition:enter="{{ durationEnter }}"
+                    x-transition:enter="{{ transitionEnter }}"
                     x-transition:enter-start="{{ transitionStyles }}"
-                    x-transition:leave="{{ durationLeave }}"
+                    x-transition:leave="{{ transitionLeave }}"
                     x-transition:leave-end="{{ transitionStyles }}"
                     x-trap.noscroll.inert="drawerOpen"
                     @click.stop = "$event.target.tagName.toLowerCase() === 'a' && toggleDrawer"
                     class="flex flex-col {{ panelStyles }} {{ panelAlignmentStyles }}">
-                    {% if props.closeButton %}
-                        {{ button(props.triggerProps | assign({toggleValue: "drawerOpen"}), {class:"w-full", "@click": "toggleDrawer", "x-ref":"trigger"}) }}
-                    {% endif %}
+
                     {% if caller %}
                         {{ caller() | safe }}
                     {% endif %}

@@ -9,7 +9,8 @@
 {% from "components/teb.njk" import teb %}
 {% from "components/disclosure.njk" import disclosure %}
 {% from "components/divider.njk" import divider %}
-{% from "components/drawer-copy.njk" import drawer %}
+{% from "components/bottomSheet.njk" import bottomSheet %}
+{% from "components/toTopFab.njk" import toTopFab %}
 {% from "components/navbar.njk" import navbar with context %}
 
 {# Values ------------------------------------------------------------------------------------------------------------------------------ #}
@@ -60,13 +61,12 @@
         {% endcall %}
     {% endcall %}
 
+    {{ toTopFab() }}
 {% endblock %}
 
-{% block bottomDrawer %}
-    {% call drawer(
+{% block bottomSheet %}
+    {% call bottomSheet(
         props={
-            alignment: "bottom",
-            closeButton: true,
             triggerProps: {
                 label:{off: "Open Table of Contents", on: "Close Table of Contents"},
                 icon: {off: "keyboard_arrow_up", on: "keyboard_arrow_down"},
@@ -75,18 +75,15 @@
                 variant: "ghost"
             }
         },
-        attrs={class:"lg:hidden bg-surface border-t border-x border-neutral rounded-t-base w-full p-2xs"}
+        attrs={class:"lg:hidden"}
     ) %}
-                {{ divider() }}
-        {% call section({},{class:"gap-2xs"}) %}
-            {% call container({size:"base", type: "cols-1", alignment: "center"},{class:"py-sm gap-2xs"}) %}
-                {{ markdown({
-                    content: anchoredContent | toc | safe,
-                    overrides: {fontSize: "text-body-base", scale:"2"}
-                },{
-                    class:"w-full"
-                })}}
-            {% endcall %}
+        {% call container({size:"base", type: "cols-1", alignment: "center"},{class:"py-sm gap-2xs"}) %}
+            {{ markdown({
+                content: anchoredContent | toc | safe,
+                overrides: {fontSize: "text-body-base", scale:"2"}
+            },{
+                class:"w-full"
+            })}}
         {% endcall %}
     {% endcall %}
 {% endblock %}

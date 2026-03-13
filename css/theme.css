@@ -199,7 +199,6 @@
 
   /* Animations ------------------------------------------------------------------------------------------------------------------------ */
 
-  --ease-*: initial;
   --default-transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
   --default-transition-duration: 100ms;
   --animate-marquee: marquee var(--animate-duration, 1s) infinite linear;

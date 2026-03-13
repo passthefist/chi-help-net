@@ -30,11 +30,11 @@
         sizes: {
             base: "text-button-base min-w-tube-base min-h-tube-base rounded-base gap-xs px-xs py-2xs",
             sm: "text-body-base min-h-tube-sm min-w-tube-sm rounded-sm gap-2xs px-xs py-2xs",
-            lg: "text-body-lg min-h-tube-lg min-w-tube-lg rounded-lg gap-xs px-xs py-2xs",
-            xl: "text-heading-sm min-h-tube-xl min-w-tube-xl rounded-lg gap-sm px-sm py-2xs"
+            fab: "text-body-base min-w-tube-lg min-h-tube-lg rounded-full p-2xs"
         },
         variants: {
-            ghost: "text-neutral hover:bg-neutral"
+            ghost: "text-neutral hover:bg-neutral",
+            outline: "border border-neutral bg-surface"
         }
     },
     link: {
@@ -56,36 +56,36 @@
 
 {# ------------------------------------------------------------------------------------------------------------------------------------- #}
 
-<{% if attrs.href %}a{% else %}button{% endif %} data-button
-    {% if props.toggleValue %}
-        {% if not props.label %}:aria-label="{{ props.toggleValue}} ? '{{ props.tooltip.on }}' : '{{ props.tooltip.off }}'"{% endif %}
-        :title="{{ props.toggleValue }} ? '{{ props.tooltip.on }}' : '{{ props.tooltip.off }}'"
-    {% else %}
-        {% if props.tooltip %}
-            {% if not props.label %}aria-label="{{ props.tooltip }}"{% endif %}
-            title="{{ props.tooltip }}"
+<span data-button
+        class="inline-flex shrink-0 disabled:opacity-60 items-center
+        {% if props.type === "button" %}
+            {{ buttonWrapperStyles.shared }}
+            {{ buttonWrapperStyles.sizes[props.size] }}
+            {{ buttonWrapperStyles.variants[props.variant] }}
         {% endif %}
-    {% endif %}
-    {{ loopAttrs(attrs) }}
-    class="inline-flex shrink-0 disabled:opacity-60 cursor-pointer items-center
-    {% if props.type === "button" %}
-        {{ buttonWrapperStyles.shared }}
-        {{ buttonWrapperStyles.sizes[props.size] }}
-        {{ buttonWrapperStyles.variants[props.variant] }}
-    {% endif %}
-    {{ attrs.class }}
-    {% if attrs.disabled %}pointer-events-none{% endif %}">
+        {{ attrs.class }}
+        {% if attrs.disabled %}pointer-events-none{% endif %}">
 
-
-    <div class="w-full h-full flex justify-center items-center
-        {{ buttonStyles[props.type].styles }}
-        {{ buttonStyles[props.type].sizes[props.size] }}
-        {{ buttonStyles[props.type].variants[props.variant] }}
-        {{ buttonStyles.shared }}"
+    <{% if attrs.href %}a{% else %}button{% endif %}
+        {{ loopAttrs(attrs) }}
         {% if props.toggleValue %}
-            {% if buttonStyles[props.type].on %}
-                :class="{{ props.toggleValue }} && '{{ buttonStyles[props.type].on }}'"
+            {% if not props.label %}:aria-label="{{ props.toggleValue}} ? '{{ props.tooltip.on }}' : '{{ props.tooltip.off }}'"{% endif %}
+            :title="{{ props.toggleValue }} ? '{{ props.tooltip.on }}' : '{{ props.tooltip.off }}'"
+        {% else %}
+            {% if props.tooltip %}
+                {% if not props.label %}aria-label="{{ props.tooltip }}"{% endif %}
+                title="{{ props.tooltip }}"
             {% endif %}
+        {% endif %}
+        class="w-full h-full flex justify-center items-center cursor-pointer
+            {{ buttonStyles[props.type].styles }}
+            {{ buttonStyles[props.type].sizes[props.size] }}
+            {{ buttonStyles[props.type].variants[props.variant] }}
+            {{ buttonStyles.shared }}"
+            {% if props.toggleValue %}
+                {% if buttonStyles[props.type].on %}
+                    :class="{{ props.toggleValue }} && '{{ buttonStyles[props.type].on }}'"
+                {% endif %}
         {% endif %}>
 
         {% if props.toggleValue %}
@@ -120,11 +120,9 @@
             {% endif %}
         {%- endif -%}
 
-    {% if buttonWrapperStyles and props.type === "button" %}
-        </div>
-    {% endif %}
+    </{% if attrs.href %}a{% else %}button{% endif %}>
+</span>
 
-</{% if attrs.href %}a{% else %}button{% endif %}>
 
 {% endmacro %}
 
