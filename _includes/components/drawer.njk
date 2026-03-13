@@ -12,11 +12,10 @@
 
 {# Theme styles ----------- #}
 
-{% set drawerStyles = "w-full h-dvh overflow-hidden pb-safe-area-bottom overscroll-contain" %} {# applied to the wrapper for the panel #}
-{% set panelStyles = "@container content-center bg-surface border-t border-x border-neutral rounded-t-base p-2xs overscroll-contain" %}
-{% set backdropStyles = "bg-black opacity-50 transition-opacity transition-discrete overscroll-contain" %}
-{% set durationEnter = "duration-0" %}
-{% set durationLeave = "duration-0" %}
+{% set panelStyles = "bg-surface border-neutral gap-2xs p-2xs" %}
+{% set backdropStyles = "bg-black opacity-50 transition-opacity" %}
+{% set transitionEnter = "duration-200 ease-in" %}
+{% set transitionLeave = "duration-200 ease-out" %}
 
 {% if props.alignment === "top" %}
 
@@ -27,7 +26,7 @@
 {% elseif props.alignment === "bottom" %}
 
     {% set drawerAlignmentStyles = "flex-col bottom-0 justify-end" %}
-    {% set panelAlignmentStyles = "border-t pb-base-y" %}
+    {% set panelAlignmentStyles = "border-t rounded-t-base" %}
     {% set transitionStyles = "translate-y-full" %}
 
 {% elseif props.alignment === "right" %}
@@ -49,68 +48,59 @@
 {# ------------------------------------------------------------------------------------------------------------------------------------- #}
 
 <div data-drawer
+    {{ loopAttrs(attrs) }}
     x-data="{
         drawerOpen: false,
         toggleDrawer() {
-            if (this.drawerOpen) {
-                return this.close(this.$refs.trigger)
-            }
-            this.drawerOpen = true;
-            $nextTick(() => {this.$refs.panel.focus()})
-            scrollable = false;
-        },
-        close(focusAfter) {
-            if (! this.drawerOpen) return
-            this.drawerOpen = false
-            scrollable = !scrollable;
-            focusAfter && focusAfter.focus()
-        },
+            this.drawerOpen = !this.drawerOpen
+        }
     }"
-    x-on:resize.window.debounce="close()"
-    x-on:keydown.escape.prevent.stop="close($refs.trigger)"
-    x-on:focusin.window="! $refs.drawer.contains($event.target) && close()"
+    x-on:resize.window.debounce="drawerOpen = false"
     class="flex {{ attrs.class }}">
-
-    {# Trigger Button #}
-    {{ button(props.triggerProps | assign({toggleValue: "drawerOpen"}), {class:"grow", "@click": "toggleDrawer()", "x-ref":"trigger"}) }}
+    {{ button(props.triggerProps | assign({toggleValue: "drawerOpen"}), {class:"grow", "@click": "toggleDrawer", "x-ref":"trigger"}) }}
 
     <template x-teleport="body">
+        <div
+            x-show="drawerOpen"
+            role="dialog"
+            aria-modal="true"
+            aria-label="{{ props.ariaLabel }}"
+            @keydown.escape.prevent.stop="toggleDrawer"
+            class="fixed z-(--z-top) inset-0">
 
-        <div {# wrapper for panel, teleported to the body #}
-            x-cloak
-            x-ref="drawer"
-            :class="{'invisible': !drawerOpen}"
-            class="flex z-(--z-top) grow fixed overflow-y-auto transition-discrete transition-all {{ drawerStyles }} {{ drawerAlignmentStyles }}">
-
-            {# Panel – thing that transitions #}
+            {# Backdrop ------------------ #}
             <div
-            tabindex="-1"
-                x-ref="panel"
                 x-show="drawerOpen"
-                x-transition:enter="{{ durationEnter }}"
-                x-transition:enter-start="{{ transitionStyles }}"
-                x-transition:leave="{{ durationLeave }}"
-                x-transition:leave-end="{{ transitionStyles }}"
-                @click="if($event.target !== $refs.panel && $event.target.tagName.toLowerCase() === 'a') { close($refs.button) }"
-                @click.outside="close()"
-                class="transition {{ panelStyles }} {{ panelAlignmentStyles }}"
-            >
-                {% if caller %}
-                    {{ caller() | safe }}
-                {% endif %}
+                x-transition:enter="{{ transitionEnter }}"
+                x-transition:enter-start="opacity-0!"
+                x-transition:leave="{{ transitionLeave }}"
+                x-transition:leave-end="opacity-0!"
+                class="fixed inset-0 z-(--z-lowered) {{ backdropStyles }}">
             </div>
 
-            {# Backdrop – overlay #}
+            {# Panel ------------------ #}
             <div
-                x-show="drawerOpen"
-                x-transition:enter="{{ durationEnter }}"
-                x-transition:enter-start="opacity-0!"
-                x-transition:leave="{{ durationLeave }}"
-                x-transition:leave-end="opacity-0!"
-                class="absolute inset-0 z-(--z-lowered) {{ backdropStyles }}">
+                x-ref="panelWrapper"
+                @click="toggleDrawer"
+                class="relative h-full w-full flex {{ drawerAlignmentStyles }}">
+
+                {# Actual panel #}
+                <div
+                    x-show="drawerOpen"
+                    x-transition:enter="{{ transitionEnter }}"
+                    x-transition:enter-start="{{ transitionStyles }}"
+                    x-transition:leave="{{ transitionLeave }}"
+                    x-transition:leave-end="{{ transitionStyles }}"
+                    x-trap.noscroll.inert="drawerOpen"
+                    @click.stop = "$event.target.tagName.toLowerCase() === 'a' && toggleDrawer"
+                    class="flex flex-col {{ panelStyles }} {{ panelAlignmentStyles }}">
+
+                    {% if caller %}
+                        {{ caller() | safe }}
+                    {% endif %}
+                </div>
             </div>
         </div>
-
     </template>
 </div>
 

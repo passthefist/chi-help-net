@@ -63,6 +63,7 @@ Offers multiple resources to assert tenant’s rights to assist with evictions, 
 ### Chicago Housing Initiative (Eviction Help, Legal Aid, and More Resources)
 
 The Chicago Housing Initiative helps connect tto groups that offer help with emergency housing, finding low-income housing, cooling/heating assistance, as well as legal support.
+
 **Website:** [chicagohousinginitiative.org](https://www.chicagohousinginitiative.org/)
 
 ### All Chicago (Housing Security)

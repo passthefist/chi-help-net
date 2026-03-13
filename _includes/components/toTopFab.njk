@@ -9,7 +9,7 @@
 
 {# Values ----------- #}
 
-{% set themeStyles = "print:hidden" %}
+{% set themeStyles = "bottom-tube-lg -translate-y-xs right-xs" %}
 
 {# ------------------ #}
 
@@ -19,7 +19,7 @@
     x-transition:enter-start="translate-y-4 opacity-0"
     x-transition:leave-end="-translate-y-2 opacity-0"
     {{ loopAttrs(attrs) }}
-    class="fixed z-(--z-top-elevated) bottom-sm right-sm transition duration-300 {{ attrs.class }} {{ themeStyles }}">
+    class="fixed z-(--z-top) transition duration-300 {{ attrs.class }} {{ themeStyles }}">
     {{ button({icon:"vertical_align_top",type:"button", size:"fab", variant:"outline", tooltip:"Scroll to top"},{"@click": "window.scrollTo({top: 0})"}) }}
 </div>
 

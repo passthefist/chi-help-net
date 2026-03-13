@@ -18,7 +18,7 @@
 {% set themeAlignment = "left" %}
 {% set drawerOnNarrow = false %}
 
-{% set navbarStyles = "@container z-(--z-elevated) bg-blue-light border-b border-transparent py-xs md:py-base-y transition duration-500" %}
+{% set navbarStyles = "@container z-(--z-elevated) bg-blue border-b border-transparent py-xs md:py-base-y transition duration-500" %}
 {% set navbarRowStyles = "items-center md:items-start" %}
 {% set stickyStyles = "max-md:sticky top-0" %}
 {% set onScrollStyles = "max-md:border-neutral!" %}
@@ -60,7 +60,6 @@
 <nav data-navbar
     {{ loopAttrs(attrs) }}
     x-ref="navbar"
-    :class="{'{{ onHiddenStyles }}' : navbarHidden, {% if props.sticky %}'{{ onScrollStyles }}' : hasScrolled | !scrollable {% endif %} }"
     class="w-full flex flex-col relative {{ attrs.class }} {{ navbarStyles }} {% if props.sticky %}{{ stickyStyles }}{% endif %}">
 
     {% call section({tag:"div"}) %}

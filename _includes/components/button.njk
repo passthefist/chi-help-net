@@ -29,7 +29,7 @@
         on: "",
         sizes: {
             base: "text-button-base min-w-tube-base min-h-tube-base rounded-base gap-xs px-xs py-2xs",
-            sm: "text-body-base min-h-tube-sm min-w-tube-sm rounded-sm gap-2xs px-xs py-2xs",
+            sm: "text-body-base min-h-tube-sm min-w-tube-sm rounded-sm gap-2xs px-xs py-px",
             fab: "text-body-base min-w-tube-lg min-h-tube-lg rounded-full p-2xs"
         },
         variants: {
@@ -77,7 +77,7 @@
                 title="{{ props.tooltip }}"
             {% endif %}
         {% endif %}
-        class="w-full h-full flex justify-center items-center cursor-pointer
+        class="w-full flex justify-center items-center cursor-pointer
             {{ buttonStyles[props.type].styles }}
             {{ buttonStyles[props.type].sizes[props.size] }}
             {{ buttonStyles[props.type].variants[props.variant] }}

@@ -97,9 +97,10 @@
 /* blockquote */
 .markdown blockquote {
   padding: var(--space-1) var(--space-1);
-  border: var(--md-border-width) solid var(--color-border-neutral);
+  border: var(--md-border-width) solid var(--color-border-red);
   margin-block-start: var(--space-3);
   border-radius: var(--md-radius);
+  background-color: var(--color-bg-red);
   position: relative;
 
   &:empty {

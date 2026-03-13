@@ -12,13 +12,13 @@
   --heading-lg--font-size: 36px;
 
   @media screen and (min-width: 600px) {
-    --body-sm--font-size: 18px;
-    --body-base--font-size: 20.5px;
+    --body-sm--font-size: 19px;
+    --body-base--font-size: 21px;
     --body-base--line-height: 1.45;
-    --body-lg--font-size: 23px;
-    --heading-sm--font-size: 22.5px;
-    --heading-base--font-size: 26px;
-    --heading-lg--font-size: 64px;
+    --body-lg--font-size: 22.5px;
+    --heading-sm--font-size: 21.5px;
+    --heading-base--font-size: 29px;
+    --heading-lg--font-size: 48px;
   }
 
   @media screen and (min-width: 850px) {
@@ -57,20 +57,17 @@
   }
 
   /* Sizes -------------------------------------------------------------------------------------------------------------------------- */
-  --size-tube-sm: 2.5rem;
-  --size-tube-base: 3rem;
-  --size-tube-lg: 3.5rem;
+
+  --size-tube-sm: 2.75rem;
+  --size-tube-base: calc(var(--size-tube-sm) + (2 * var(--space-2xs)));
+  --size-tube-lg: calc(var(--size-tube-base) + (2 * var(--space-2xs)));
 
   @media screen and (min-width: 600px) {
     --size-tube-sm: 2.75rem;
-    --size-tube-base: 3.25rem;
-    --size-tube-lg: 3.75rem;
   }
 
   @media screen and (min-width: 850px) {
-    --size-tube-sm: 2.75rem;
-    --size-tube-base: 3.5rem;
-    --size-tube-lg: 4rem;
+    --size-tube-sm: 3rem;
   }
 }
 
@@ -122,14 +119,18 @@
   --color-t-neutral: var(--color-slate-500);
   --color-t-neutral-light: var(--color-slate-400);
 
-  --color-t-link: var(--color-blue);
-  --color-t-warning: var(--color-red);
+  --color-t-link: var(--color-blue-500);
+  --color-t-red: var(--color-red-500);
 
-  --color-t-red: var(--color-red-light);
+  --color-t-red: var(--color-red-400);
 
   /* Border ------------------------------------ */
 
   --color-border-neutral: var(--color-slate-300);
+
+  --color-border-blue: var(--color-blue-300);
+
+  --color-border-red: var(--color-red-300);
 
   /* Background ------------------------------------ */
 
@@ -137,8 +138,9 @@
 
   --color-bg-surface: var(--color-slate-100);
 
-  --color-bg-blue: var(--color-blue-light);
-  --color-bg-blue-light: var(--color-blue-lighter);
+  --color-bg-blue: var(--color-blue-200);
+
+  --color-bg-red: var(--color-red-200);
 
   /* Container ------------------------------------------------------------------------------------------------------------------------- */
 

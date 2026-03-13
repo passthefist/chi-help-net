@@ -24,7 +24,8 @@
 <html
     {% if showNavbar %} {# checks if the layout template includes the navbar or not #}
         x-data="{
-            scrollable: true
+            scrollable: true,
+            hasScrolled: false,
             setHasScrolled() {
                 if (window.scrollY > 0) {
                     this.hasScrolled = true
@@ -60,9 +61,19 @@
             {% block content %}{% endblock %}
         </main>
 
-        {% block bottomSheet %}{% endblock %}
+        {% call section({tag:"footer"},{class:"bg-neutral text-neutral border-t border-neutral max-lg:pb-tube-lg"}) %}
 
-        {% block footer %}{% endblock %}
+            {% block footer %}{% endblock %}
+
+            {% call container({size:"base", type: "cols-1", alignment: "center"}, {class:"py-xs"}) %}
+                <div class="flex gap-2xs text-body-sm text-surface-light">
+                    Web design by {{ button({label: "Sites by Steph", size: "sm", type: "link", variant: "link"},{href:"https://sitesbysteph.com", target:"_blank"}) }}
+                </div>
+            {% endcall %}
+
+        {% endcall %}
+
+        {% block bottomSheet %}{% endblock %}
 
 {# ------------------------------------------------------------------------------------------------------------------------------------- #}
 

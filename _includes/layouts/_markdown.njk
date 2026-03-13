@@ -7,8 +7,6 @@
 {% from "components/container.njk" import container %}
 {% from "components/sidebar.njk" import sidebar %}
 {% from "components/teb.njk" import teb %}
-{% from "components/disclosure.njk" import disclosure %}
-{% from "components/divider.njk" import divider %}
 {% from "components/bottomSheet.njk" import bottomSheet %}
 {% from "components/toTopFab.njk" import toTopFab %}
 {% from "components/navbar.njk" import navbar with context %}
@@ -22,7 +20,7 @@
 
 {% block content %}
     {{ navbar({sticky: false}) }}
-    {% call section({},{class:"gap-lg pb-lg border-b max-md:pt-sm border-neutral bg-blue-light"}) %}
+    {% call section({},{class:"gap-lg pb-lg border-b max-md:pt-sm border-blue bg-blue"}) %}
         {% call container({size:"narrow", type: "cols-1", alignment: "left"}) %}
             {{ teb({
                 size: "lg",
@@ -32,15 +30,8 @@
                 titleTag: "h1"
             }) }}
         {% endcall %}
-        {# {% call container({size:"base", type: "cols-1", alignment: "center"},{class:"lg:hidden"}) %}
-            {{ disclosure({
-                transform: false,
-                title: "Table of Contents",
-                elaboration: anchoredContent | toc | safe
-            }) }}
-        {% endcall %} #}
     {% endcall %}
-    {% call section() %}
+    {% call section({},{class:"grow"}) %}
         {% call container({size:"base", type:"sidebar"}, {class:"gap-base-x"}) %}
             {% call sidebar() %}
                     <div class="flex flex-col items-start gap-xs w-full py-lg">

@@ -5,10 +5,13 @@
   --color-slate-200: #ebeeef;
   --color-slate-100: #fefdfd;
 
-  --color-red: #d80d0d;
-  --color-red-light: #e4002b;
+  --color-red-500: #d80d0d;
+  --color-red-400: #e4002b;
+  --color-red-300: #ff938d;
+  --color-red-200: #ffece9;
 
-  --color-blue: #006b99;
-  --color-blue-light: #41b6e6;
-  --color-blue-lighter: #e9f7ff;
+  --color-blue-500: #007694;
+  --color-blue-400: #41b6e6;
+  --color-blue-300: #9ed8f0;
+  --color-blue-200: #e9f7ff;
 }
