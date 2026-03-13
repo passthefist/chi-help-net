@@ -10,32 +10,99 @@
 
 {# Values ------------------------------------------------------------------------------------------------------------------------------ #}
 
-{% set headingStyles = "text-heading-base text-neutral text-center" %}
+{% set textLockupStyles = "" %}
 
 {# Theme styles ----------- #}
 
-{% set textLockupStyles = "gap-8" %}
+{% set textLockupSizes = {
+    xl: {
+        title: "text-heading-xl",
+        elaboration: "text-body-lg",
+        button: "lg",
+        gap: "gap-base-y"
+    },
+    lg: {
+        title: "text-heading-lg",
+        elaboration: "text-body-lg",
+        button: "lg",
+        gap: "gap-sm"
+    },
+    base: {
+        title: "text-heading-base",
+        elaboration: "text-body-base",
+        button: "base",
+        gap: "gap-sm"
+    },
+    sm: {
+        title: "text-heading-sm",
+        elaboration: "text-body-base",
+        button: "sm",
+        gap: "gap-xs"
+    }
+}
+%}
 
 {# Other ------------------ #}
 
-{# ------------------------------------------------------------------------------------------------------------------------------------- #}
+{% set titleTag %}{% if props.titleTag %}{{ props.titleTag }}{% else %}h2{% endif %}{% endset %}
+{% set textAlignment %}{% if props.textAlignment %}{{ props.textAlignment }}{% else %}left{% endif %}{% endset %}
+{% if textAlignment === "left" %}
+    {% set itemsAlignment = "start" %}
+{% elseif textAlignment === "right" %}
+    {% set itemsAlignment = "end" %}
+{% else %}
+    {% set itemsAlignment = "center" %}
+{% endif %}
 
+
+{# ------------------------------------------------------------------------------------------------------------------------------------- #}
 <div data-textLockup
     {{ loopAttrs(attrs) }}
-    class="flex flex-col items-center {{ attrs.class }} {{ textLockupStyles }}">
-    <h1 class="{{ headingStyles }}">{{ props.title }}</h1>
+    class="flex flex-col {{ attrs.class }} {{ textLockupStyles }} text-{{ textAlignment }} items-{{ itemsAlignment }} {{ textLockupSizes[props.size].gap }}">
+    <{{ titleTag }} class="text-pretty {{ titleStyles }} {{ textLockupSizes[props.size].title }}">{{ props.title }}</{{ titleTag }}>
     {% if props.elaboration %}
         {{ markdown(
             props={
                 content: props.elaboration,
-                transform: true
+                transform: true,
+                overrides: {
+                    fontSize: textLockupSizes[props.size].elaboration
+                }
             },
-            attrs={class:"w-full text-center"}
+            attrs={class:"w-full max-w-content"}
         ) }}
     {% endif %}
     {% if props.button %}
-        {{ button(props.button.props, props.button.attrs) }}
+        {{ button(props.button.props | assign({size: textLockupSizes[props.size].button }), props.button.attrs) }}
+    {% endif %}
+    {% if caller %}
+        {{ caller() | safe }}
     {% endif %}
 </div>
 
 {% endmacro %}
+
+{# Component Documentation ------------------------------------------------------------------------------------------------------------- #}
+
+{% set textLockupMeta = {
+    args: '{% call textLockup(
+    props={
+        size: "xl | lg | base | sm",
+        textAlignment: "left | center | right",
+        title: "",
+        titleTag: "h2",
+        elaboration: "",
+        button: {
+            props: {},
+            attrs: {}
+        }
+    },
+    attrs={}
+) %}
+{% endcall %}',
+description: "
+-
+-
+-
+"
+} %}

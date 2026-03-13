@@ -6,7 +6,7 @@
 {% from "components/markdown.njk" import markdown %}
 {% from "components/container.njk" import container %}
 {% from "components/sidebar.njk" import sidebar %}
-{% from "components/teb.njk" import teb %}
+{% from "components/textLockup.njk" import textLockup %}
 {% from "components/bottomSheet.njk" import bottomSheet %}
 {% from "components/toTopFab.njk" import toTopFab %}
 {% from "components/navbar.njk" import navbar with context %}
@@ -22,7 +22,7 @@
     {{ navbar({sticky: false}) }}
     {% call section({},{class:"gap-lg pb-lg border-b max-md:pt-sm border-blue bg-blue"}) %}
         {% call container({size:"narrow", type: "cols-1", alignment: "left"}) %}
-            {{ teb({
+            {{ textLockup({
                 size: "lg",
                 textAlignment: "left",
                 title: title,

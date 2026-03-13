@@ -9,7 +9,7 @@
 
 {# Values ----------- #}
 
-{% set themeStyles = "bottom-tube-lg -translate-y-xs right-xs" %}
+{% set themeStyles = "lg:bottom-xs bottom-tube-lg pb-safe-area-bottom max-lg:-translate-y-xs right-xs" %}
 
 {# ------------------ #}
 
@@ -20,7 +20,7 @@
     x-transition:leave-end="-translate-y-2 opacity-0"
     {{ loopAttrs(attrs) }}
     class="fixed z-(--z-top) transition duration-300 {{ attrs.class }} {{ themeStyles }}">
-    {{ button({icon:"vertical_align_top",type:"button", size:"fab", variant:"outline", tooltip:"Scroll to top"},{"@click": "window.scrollTo({top: 0})"}) }}
+    {{ button({icon:"vertical_align_top",type:"button", size:"fab", variant:"outline", tooltip:"Scroll to top"},{href:"#main"}) }}
 </div>
 
 {% endmacro %}

@@ -2,7 +2,7 @@
 permalink: /index.html
 title: Chicago Community Assistance and Crisis Support Resource Guide
 elaboration: A list of organizations that can help with issues relating to housing, medical access, and food security.
-layout: layouts/_markdown.njk
+layout: layouts/document.njk
 languageButton:
   text: Leer en Español
   href: /es

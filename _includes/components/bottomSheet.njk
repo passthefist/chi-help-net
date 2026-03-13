@@ -21,13 +21,13 @@
 
 {# ------------------------------------------------------------------------------------------------------------------------------------- #}
 
-<div data-bottomSheet {{ loopAttrs(attrs) }} class="{{ attrs.class }} fixed bottom-0 z-(--z-elevated) w-full pb-safe-area-bottom">
+<div data-bottomSheet {{ loopAttrs(attrs) }} class="{{ attrs.class }} {{ bottomSheetStyles }} fixed bottom-0 z-(--z-elevated) w-full pb-safe-area-bottom flex items-center">
 {% call drawer(
         props={
             alignment: "bottom",
             triggerProps: props.triggerProps
         },
-        attrs={class:bottomSheetStyles}
+        attrs={class:"w-full"}
     ) %}
         {{ button(props.triggerProps | assign({toggleValue: "drawerOpen"}), {class:"w-full", "@click": "toggleDrawer", "x-ref":"trigger"}) }}
         {{ divider() }}

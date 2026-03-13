@@ -2,6 +2,6 @@
 User-agent: *
 Allow: /
 
-Host: https://chi-resource-guide.netlify.app/
+Host: https://chi-resource-guide.netlify.app
 
-Sitemap: https://chi-resource-guide.netlify.app//sitemap.xml
+Sitemap: https://chi-resource-guide.netlify.app/sitemap.xml

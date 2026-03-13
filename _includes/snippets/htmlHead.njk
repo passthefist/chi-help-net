@@ -3,7 +3,7 @@
 
 {% set pageDescription %}{% if data.seoDescription %}{{ data.seoDescription }}{% else %}{{ global.siteDescription }}{% endif %}{% endset %}
 {% set pageTitle %}{% if data.seoTitle %}{{ data.seoTitle }} – {% elseif title %}{{ title }} – {% endif %} {{ pageDescription }} • {{ global.siteTitle }}{% endset %}
-{% set ogImage %}{{- global.siteDomain -}}{% if seo.ogImage %}{{- page.fileSlug -}}{{- seo.ogImage -}}{% else %}{{- global.siteImage -}}{% endif %}{% endset %}
+{% set ogImage %}{{- global.siteDomain -}}{% if seo.ogImage %}{{- seo.ogImage -}}{% else %}{{- global.siteImage -}}{% endif %}{% endset %}
 
 {# ------------------------------------------------------------------------------------------------------------------------------------- #}
 

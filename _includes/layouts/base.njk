@@ -7,7 +7,7 @@
 {% from "components/button.njk" import button %}
 {% from "components/textLockup.njk" import textLockup %}
 {% from "components/divider.njk" import divider %}
-{# {% from "assets.njk" import logo %} #}
+{% from "components/markdown.njk" import markdown %}
 
 {# Values ------------------------------------------------------------------------------------------------------------------------------ #}
 
@@ -66,9 +66,7 @@
             {% block footer %}{% endblock %}
 
             {% call container({size:"base", type: "cols-1", alignment: "center"}, {class:"py-xs"}) %}
-                <div class="flex gap-2xs text-body-sm text-surface-light">
-                    Web design by {{ button({label: "Sites by Steph", size: "sm", type: "link", variant: "link"},{href:"https://sitesbysteph.com", target:"_blank"}) }}
-                </div>
+                {{ markdown({content:global.footer, transform: true},{class:"w-full text-center"}) }}
             {% endcall %}
 
         {% endcall %}

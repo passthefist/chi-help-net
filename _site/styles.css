@@ -1036,6 +1036,12 @@
       opacity: 60%;
     }
   }
+  .max-lg\:-translate-y-xs {
+    @media (width < 1040px) {
+      --tw-translate-y: calc(var(--space-xs) * -1);
+      translate: var(--tw-translate-x) var(--tw-translate-y);
+    }
+  }
   .max-lg\:pb-tube-lg {
     @media (width < 1040px) {
       padding-bottom: var(--size-tube-lg);
@@ -1100,6 +1106,11 @@
       @media (width < 1040px) {
         display: block;
       }
+    }
+  }
+  .lg\:bottom-xs {
+    @media (width >= 1040px) {
+      bottom: var(--space-xs);
     }
   }
   .lg\:block {

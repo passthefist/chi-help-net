@@ -3,14 +3,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://chi-resource-guide.netlify.app//</loc>
+    <loc>https://chi-resource-guide.netlify.app/</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://chi-resource-guide.netlify.app//es/</loc>
+    <loc>https://chi-resource-guide.netlify.app/es/</loc>
     <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
