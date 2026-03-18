@@ -7,8 +7,11 @@ import * as toc from "eleventy-plugin-toc-util";
 const md = markdownIt();
 
 export default async function (eleventyConfig) {
+  eleventyConfig.setOutputDirectory('release');
+  eleventyConfig.setInputDirectory('site');
+
   eleventyConfig.setDataDeepMerge(true);
-  eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy({"site/assets":"assets"});
   eleventyConfig.addPassthroughCopy("admin");
 
   // -------------------------------------------------------------------------------------------------------------------------------------
