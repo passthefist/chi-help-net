@@ -9,7 +9,7 @@
     "dev:11ty": "cross-env ELEVENTY_ENV=dev eleventy --serve",
     "dev:css": "npx @tailwindcss/cli -i ./css/styles.css -o ./_site/styles.css --watch",
     "build:11ty": "cross-env ELEVENTY_ENV=prod eleventy",
-    "build:css": "npx @tailwindcss/cli -i ./site/css/styles.css -o ./release/styles.css -m"
+    "build:css": "npx @tailwindcss/cli -i ./site/css/styles.css -o ./docs/styles.css -m"
   },
   "keywords": [],
   "author": "",

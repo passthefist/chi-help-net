@@ -7,7 +7,7 @@ import * as toc from "eleventy-plugin-toc-util";
 const md = markdownIt();
 
 export default async function (eleventyConfig) {
-  eleventyConfig.setOutputDirectory('release');
+  eleventyConfig.setOutputDirectory('docs');
   eleventyConfig.setInputDirectory('site');
 
   eleventyConfig.setDataDeepMerge(true);
