@@ -1,0 +1,4156 @@
+[
+  {
+    "id": "dfss",
+    "name": "City of Chicago DFSS",
+    "short": {
+      "en": "Department of Family and Support Services — citywide case management, housing, employment, food, and benefits. Six walk-in locations.",
+      "es": "Departamento de Servicios Familiares y de Apoyo — gestión de casos, vivienda, empleo, alimentos y beneficios en toda la ciudad. Seis ubicaciones sin cita."
+    },
+    "url": "https://www.chicago.gov/city/en/depts/fss.html",
+    "phone": "312-744-5000",
+    "address": "Multiple locations — see website",
+    "services": [
+      "case-management",
+      "housing-emergency",
+      "housing-financial-aid",
+      "employment",
+      "job-readiness",
+      "food",
+      "benefits-navigation",
+      "community-referrals",
+      "crisis",
+      "shelter"
+    ],
+    "type": [
+      "government"
+    ],
+    "org_needs": [],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday–Friday, 9am–5pm",
+      "es": "Lunes a viernes, 9am–5pm"
+    },
+    "notes": {
+      "en": "Six locations citywide — see individual entries or website for the nearest. Can assign a case manager to coordinate housing, employment, and benefits simultaneously.",
+      "es": "Seis ubicaciones en toda la ciudad — consulta las entradas individuales o el sitio web para la más cercana. Pueden asignar un gestor de casos para coordinar vivienda, empleo y beneficios al mismo tiempo."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "result": false,
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "dfss-trina-davila",
+      "dfss-englewood",
+      "dfss-garfield",
+      "dfss-king",
+      "dfss-north",
+      "dfss-south-chicago"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "dfss-trina-davila",
+    "name": "DFSS — Trina Davila Community Service Center",
+    "short": {
+      "en": "DFSS walk-in hub in Humboldt Park. Case management, housing, employment, food, benefits, and crisis support.",
+      "es": "Centro de servicios comunitarios del DFSS en Humboldt Park. Gestión de casos, vivienda, empleo, alimentos, beneficios y apoyo en crisis."
+    },
+    "phone": "312-744-2014",
+    "address": "4312 W North Ave",
+    "notes": {
+      "en": "Walk-in welcome. Serves as a warming and cooling center during extreme weather.",
+      "es": "Se aceptan visitas sin cita. Funciona como centro de calor y refrigeración durante clima extremo."
+    },
+    "url": "https://www.chicago.gov/city/en/depts/fss.html",
+    "services": [
+      "case-management",
+      "housing-emergency",
+      "housing-financial-aid",
+      "employment",
+      "job-readiness",
+      "food",
+      "benefits-navigation",
+      "community-referrals",
+      "crisis",
+      "shelter",
+      "job-training",
+      "reentry"
+    ],
+    "type": [
+      "government",
+      "drop-in"
+    ],
+    "org_needs": [],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday–Friday, 9am–5pm",
+      "es": "Lunes a viernes, 9am–5pm"
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "men",
+      "senior",
+      "youth"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [
+      "dfss"
+    ],
+    "locations": [
+      "humboldt-park",
+      "northwest-side",
+      "west-side"
+    ]
+  },
+  {
+    "id": "dfss-englewood",
+    "name": "DFSS — Englewood Community Service Center",
+    "short": {
+      "en": "DFSS walk-in hub in Englewood. Case management, housing, employment, food, benefits, and crisis support.",
+      "es": "Centro de servicios comunitarios del DFSS en Englewood. Gestión de casos, vivienda, empleo, alimentos, beneficios y apoyo en crisis."
+    },
+    "phone": "312-747-0200",
+    "address": "1140 W 79th St",
+    "notes": {
+      "en": "Walk-in welcome. Serves as a warming and cooling center during extreme weather.",
+      "es": "Se aceptan visitas sin cita. Funciona como centro de calor y refrigeración durante clima extremo."
+    },
+    "url": "https://www.chicago.gov/city/en/depts/fss.html",
+    "services": [
+      "case-management",
+      "housing-emergency",
+      "housing-financial-aid",
+      "employment",
+      "job-readiness",
+      "food",
+      "benefits-navigation",
+      "community-referrals",
+      "crisis",
+      "shelter",
+      "job-training",
+      "reentry"
+    ],
+    "type": [
+      "government",
+      "drop-in"
+    ],
+    "org_needs": [],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday–Friday, 9am–5pm",
+      "es": "Lunes a viernes, 9am–5pm"
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "men",
+      "senior",
+      "youth"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [
+      "dfss"
+    ],
+    "locations": [
+      "englewood",
+      "south-side"
+    ]
+  },
+  {
+    "id": "dfss-garfield",
+    "name": "DFSS — Garfield Community Service Center",
+    "short": {
+      "en": "DFSS walk-in hub in East Garfield Park. Case management, housing, employment, food, benefits, and crisis support.",
+      "es": "Centro de servicios comunitarios del DFSS en East Garfield Park. Gestión de casos, vivienda, empleo, alimentos, beneficios y apoyo en crisis."
+    },
+    "phone": "312-746-5400",
+    "address": "10 S Kedzie Ave",
+    "notes": {
+      "en": "Walk-in welcome. Open 24/7 for emergency shelter intake. Domestic violence advocate on site.",
+      "es": "Se aceptan visitas sin cita. Abierto las 24 horas para admisión de refugio de emergencia. Defensor de violencia doméstica en el lugar."
+    },
+    "url": "https://www.chicago.gov/city/en/depts/fss.html",
+    "services": [
+      "case-management",
+      "housing-emergency",
+      "housing-financial-aid",
+      "employment",
+      "job-readiness",
+      "food",
+      "benefits-navigation",
+      "community-referrals",
+      "crisis",
+      "shelter",
+      "job-training",
+      "reentry"
+    ],
+    "type": [
+      "government",
+      "drop-in"
+    ],
+    "org_needs": [],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday–Friday, 9am–5pm",
+      "es": "Lunes a viernes, 9am–5pm"
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "men",
+      "senior",
+      "youth"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [
+      "dfss"
+    ],
+    "locations": [
+      "garfield-park",
+      "west-side"
+    ]
+  },
+  {
+    "id": "dfss-king",
+    "name": "DFSS — Dr. Martin Luther King Community Service Center",
+    "short": {
+      "en": "DFSS walk-in hub in Bronzeville/Grand Boulevard. Case management, housing, employment, food, benefits, and crisis support.",
+      "es": "Centro de servicios comunitarios del DFSS en Bronzeville/Grand Boulevard. Gestión de casos, vivienda, empleo, alimentos, beneficios y apoyo en crisis."
+    },
+    "phone": "312-747-2300",
+    "address": "4314 S Cottage Grove Ave",
+    "notes": {
+      "en": "Walk-in welcome. Domestic violence advocate on site. Serves as a warming and cooling center during extreme weather.",
+      "es": "Se aceptan visitas sin cita. Defensor de violencia doméstica en el lugar. Funciona como centro de calor y refrigeración durante clima extremo."
+    },
+    "url": "https://www.chicago.gov/city/en/depts/fss.html",
+    "services": [
+      "case-management",
+      "housing-emergency",
+      "housing-financial-aid",
+      "employment",
+      "job-readiness",
+      "food",
+      "benefits-navigation",
+      "community-referrals",
+      "crisis",
+      "shelter",
+      "job-training",
+      "reentry"
+    ],
+    "type": [
+      "government",
+      "drop-in"
+    ],
+    "org_needs": [],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday–Friday, 9am–5pm",
+      "es": "Lunes a viernes, 9am–5pm"
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "men",
+      "senior",
+      "youth"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [
+      "dfss"
+    ],
+    "locations": [
+      "bronzeville",
+      "grand-boulevard",
+      "south-side"
+    ]
+  },
+  {
+    "id": "dfss-north",
+    "name": "DFSS — North Area Community Service Center",
+    "short": {
+      "en": "DFSS walk-in hub in Uptown. Case management, housing, employment, food, benefits, and crisis support.",
+      "es": "Centro de servicios comunitarios del DFSS en Uptown. Gestión de casos, vivienda, empleo, alimentos, beneficios y apoyo en crisis."
+    },
+    "phone": "312-744-2580",
+    "address": "845 W Wilson Ave",
+    "notes": {
+      "en": "Walk-in welcome. Domestic violence advocate on site. Serves as a warming and cooling center during extreme weather.",
+      "es": "Se aceptan visitas sin cita. Defensor de violencia doméstica en el lugar. Funciona como centro de calor y refrigeración durante clima extremo."
+    },
+    "url": "https://www.chicago.gov/city/en/depts/fss.html",
+    "services": [
+      "case-management",
+      "housing-emergency",
+      "housing-financial-aid",
+      "employment",
+      "job-readiness",
+      "food",
+      "benefits-navigation",
+      "community-referrals",
+      "crisis",
+      "shelter",
+      "job-training",
+      "reentry"
+    ],
+    "type": [
+      "government",
+      "drop-in"
+    ],
+    "org_needs": [],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday–Friday, 9am–5pm",
+      "es": "Lunes a viernes, 9am–5pm"
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "men",
+      "senior",
+      "youth"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [
+      "dfss"
+    ],
+    "locations": [
+      "uptown",
+      "north-side"
+    ]
+  },
+  {
+    "id": "dfss-south-chicago",
+    "name": "DFSS — South Chicago Community Service Center",
+    "short": {
+      "en": "DFSS walk-in hub in South Chicago. Case management, housing, employment, food, benefits, and crisis support.",
+      "es": "Centro de servicios comunitarios del DFSS en South Chicago. Gestión de casos, vivienda, empleo, alimentos, beneficios y apoyo en crisis."
+    },
+    "phone": "312-747-0331",
+    "address": "8650 S Commercial Ave",
+    "notes": {
+      "en": "Walk-in welcome. Domestic violence advocate on site. Serves as a warming and cooling center during extreme weather.",
+      "es": "Se aceptan visitas sin cita. Defensor de violencia doméstica en el lugar. Funciona como centro de calor y refrigeración durante clima extremo."
+    },
+    "url": "https://www.chicago.gov/city/en/depts/fss.html",
+    "services": [
+      "case-management",
+      "housing-emergency",
+      "housing-financial-aid",
+      "employment",
+      "job-readiness",
+      "food",
+      "benefits-navigation",
+      "community-referrals",
+      "crisis",
+      "shelter",
+      "job-training",
+      "reentry"
+    ],
+    "type": [
+      "government",
+      "drop-in"
+    ],
+    "org_needs": [],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday–Friday, 9am–5pm",
+      "es": "Lunes a viernes, 9am–5pm"
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "men",
+      "senior",
+      "youth"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [
+      "dfss"
+    ],
+    "locations": [
+      "south-chicago",
+      "south-side"
+    ]
+  },
+  {
+    "id": "brave-space-alliance",
+    "name": "Brave Space Alliance",
+    "short": {
+      "en": "Black trans-led LGBTQ+ center on the South Side offering healthcare, housing, social services, and community.",
+      "es": "Centro LGBTQ+ liderado por personas trans negras en el South Side que ofrece atención médica, vivienda, servicios sociales y comunidad."
+    },
+    "url": "https://bravespacealliance.org",
+    "donate_url": "https://bravespacealliance.org/donate",
+    "phone": "872-333-5199",
+    "address": "1515 E 52nd Pl, 3rd Floor",
+    "services": [
+      "healthcare",
+      "sti-testing",
+      "mental-health",
+      "housing-transitional",
+      "employment",
+      "food",
+      "case-management",
+      "community-referrals",
+      "legal",
+      "job-training"
+    ],
+    "type": [
+      "nonprofit",
+      "community-center",
+      "drop-in"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Walk-in social worker appointments available — check website for current hours",
+      "es": "Citas con trabajadores sociales sin cita disponibles — consulta el sitio web para los horarios actuales"
+    },
+    "notes": {
+      "en": "Housing programs at capacity but can refer. Dignity Suite offers free gender-affirming clothing and space. Support groups for trans women, trans men, non-binary folk. Actively fundraising for new larger location.",
+      "es": "Los programas de vivienda están llenos pero pueden referir. El Dignity Suite ofrece ropa afirmativa de género y espacio gratuito. Grupos de apoyo para mujeres trans, hombres trans y personas no binarias. Activamente recaudando fondos para una nueva ubicación más grande."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "lgbtq",
+      "trans",
+      "bipoc"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "hyde-park",
+      "south-side"
+    ]
+  },
+  {
+    "id": "howard-brown-health",
+    "name": "Howard Brown Health",
+    "short": {
+      "en": "LGBTQ+ affirming FQHC with multiple North/NW Side locations. Primary care, mental health, dental, HRT.",
+      "es": "Centro de salud FQHC afirmativo para LGBTQ+ con múltiples ubicaciones en el North/NW Side. Atención primaria, salud mental, dental, TRH."
+    },
+    "url": "https://howardbrown.org",
+    "donate_url": "https://howardbrown.org/donate",
+    "phone": "773-388-1600",
+    "address": "Multiple North Side locations — see website",
+    "services": [
+      "healthcare",
+      "dental",
+      "mental-health",
+      "hrt",
+      "prep",
+      "sti-testing",
+      "reproductive-health",
+      "case-management",
+      "community-referrals",
+      "harm-reduction"
+    ],
+    "type": [
+      "nonprofit",
+      "fqhc"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Varies by location",
+      "es": "Varía según la ubicación"
+    },
+    "notes": {
+      "en": "Free or sliding scale. No one turned away for inability to pay. FQHC designation ensures access regardless of insurance or immigration status.",
+      "es": "Gratuito o escala móvil. Nadie es rechazado por no poder pagar. La designación FQHC garantiza el acceso independientemente del seguro o el estatus migratorio."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "kids",
+      "lgbtq",
+      "trans"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "broadway-youth-center",
+      "gerber-hart"
+    ],
+    "locations": [
+      "rogers-park",
+      "uptown",
+      "lakeview",
+      "boystown",
+      "humboldt-park",
+      "hyde-park",
+      "englewood",
+      "back-of-the-yards"
+    ]
+  },
+  {
+    "id": "broadway-youth-center",
+    "name": "Broadway Youth Center",
+    "short": {
+      "en": "Howard Brown Health drop-in center for LGBTQ+ youth ages 12-24. Food, showers, laundry, medical, mental health, HRT.",
+      "es": "Centro de atención sin cita de Howard Brown Health para jóvenes LGBTQ+ de 12 a 24 años. Alimentos, duchas, lavandería, atención médica, salud mental, TRH."
+    },
+    "url": "https://howardbrown.org/clinic_location/broadway-youth-center/",
+    "phone": "773-388-1600",
+    "address": "4009 N Broadway",
+    "services": [
+      "healthcare",
+      "mental-health",
+      "hrt",
+      "sti-testing",
+      "food",
+      "clothing",
+      "hygiene",
+      "showers",
+      "laundry",
+      "day-space",
+      "case-management",
+      "community-referrals",
+      "housing-emergency",
+      "prep",
+      "youth-services",
+      "harm-reduction"
+    ],
+    "type": [
+      "nonprofit",
+      "drop-in"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday, Tuesday, Thursday, Friday: 9am–7pm",
+      "es": "Lunes, martes, jueves y viernes: 9am–7pm"
+    },
+    "notes": {
+      "en": "Ages 12-24 only. Run by Howard Brown Health. Address may have changed — verify before visiting.",
+      "es": "Solo para personas de 12 a 24 años. Operado por Howard Brown Health. La dirección puede haber cambiado — verifica antes de visitar."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "lgbtq",
+      "trans",
+      "youth",
+      "unhoused"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "howard-brown-health",
+      "gerber-hart"
+    ],
+    "locations": [
+      "uptown"
+    ]
+  },
+  {
+    "id": "center-on-halsted",
+    "name": "Center on Halsted",
+    "short": {
+      "en": "Comprehensive LGBTQ+ community center in Boystown with mental health, employment, support groups, and social programs.",
+      "es": "Centro comunitario LGBTQ+ integral en Boystown con salud mental, empleo, grupos de apoyo y programas sociales."
+    },
+    "url": "https://centeronhalsted.org",
+    "phone": "773-472-6469",
+    "address": "3656 N Halsted St",
+    "services": [
+      "mental-health",
+      "employment",
+      "job-training",
+      "case-management",
+      "community-referrals",
+      "education",
+      "housing-emergency",
+      "youth-services"
+    ],
+    "type": [
+      "nonprofit",
+      "community-center"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Varies by program — check website",
+      "es": "Varía según el programa — consulta el sitio web"
+    },
+    "notes": {
+      "en": "Gerber Hart LGBTQ+ library located inside. Trans weekly drop-in 18+. Homesharing program pairs renters with older adults ($950/mo min income required). CoH Homesharing: 773-472-6469 x445.",
+      "es": "La biblioteca LGBTQ+ Gerber Hart está adentro. Drop-in semanal para personas trans mayores de 18 años. El programa de convivencia empareja inquilinos con adultos mayores (se requiere ingreso mínimo de $950/mes). CoH Homesharing: 773-472-6469 x445."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "lgbtq",
+      "trans",
+      "youth",
+      "senior"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "transafe-coh",
+      "gerber-hart"
+    ],
+    "locations": [
+      "boystown",
+      "lakeview",
+      "north-side"
+    ]
+  },
+  {
+    "id": "transafe-coh",
+    "name": "TransSafe — Center on Halsted",
+    "short": {
+      "en": "Free one-stop drop-in for trans, nonbinary, and gender expansive people. Housing, employment, legal, healthcare, case management.",
+      "es": "Servicio integral gratuito sin cita para personas trans, no binarias y de género expansivo. Vivienda, empleo, legal, atención médica, gestión de casos."
+    },
+    "url": "https://www.chicagohouse.org/translife-care",
+    "phone": "773-673-9340",
+    "address": "3656 N Halsted St, 2nd Floor",
+    "services": [
+      "case-management",
+      "housing-emergency",
+      "housing-transitional",
+      "employment",
+      "job-readiness",
+      "legal",
+      "legal-name-change",
+      "healthcare",
+      "community-referrals",
+      "benefits-navigation"
+    ],
+    "type": [
+      "nonprofit",
+      "drop-in"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Mondays 2–5pm (arrive early). Phone support Monday–Friday 11am–7pm.",
+      "es": "Lunes de 2 a 5pm (llega temprano). Apoyo telefónico de lunes a viernes de 11am a 7pm."
+    },
+    "notes": {
+      "en": "Run by Chicago House, hosted by Center on Halsted. Not a government program. Resource support line: 773-673-9340.",
+      "es": "Operado por Chicago House, alojado en Center on Halsted. No es un programa gubernamental. Línea de apoyo de recursos: 773-673-9340."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "trans",
+      "lgbtq"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "chicago-house",
+      "center-on-halsted"
+    ],
+    "locations": [
+      "boystown",
+      "north-side"
+    ]
+  },
+  {
+    "id": "transafe-taskforce",
+    "name": "TransSafe — TaskForce Chicago",
+    "short": {
+      "en": "Free one-stop drop-in for trans, nonbinary, and gender expansive people. West Side location.",
+      "es": "Servicio integral gratuito sin cita para personas trans, no binarias y de género expansivo. Ubicación en el West Side."
+    },
+    "url": "https://www.chicagohouse.org/translife-care",
+    "phone": "773-673-9340",
+    "address": "9 N Cicero Ave",
+    "services": [
+      "case-management",
+      "housing-emergency",
+      "housing-transitional",
+      "employment",
+      "legal",
+      "healthcare",
+      "community-referrals",
+      "benefits-navigation"
+    ],
+    "type": [
+      "nonprofit",
+      "drop-in"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Wednesdays 3–7pm",
+      "es": "Miércoles de 3 a 7pm"
+    },
+    "notes": {
+      "en": "Run by Chicago House, hosted at TaskForce Chicago. Same resource support line as CoH location.",
+      "es": "Operado por Chicago House, alojado en TaskForce Chicago. Misma línea de apoyo de recursos que la ubicación de CoH."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "trans",
+      "lgbtq"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "chicago-house",
+      "taskforce-chicago"
+    ],
+    "locations": [
+      "austin",
+      "west-side"
+    ]
+  },
+  {
+    "id": "transafe-englewood",
+    "name": "TransSafe — Englewood Family Health Center",
+    "short": {
+      "en": "Free one-stop drop-in for trans, nonbinary, and gender expansive people. South Side location.",
+      "es": "Servicio integral gratuito sin cita para personas trans, no binarias y de género expansivo. Ubicación en el South Side."
+    },
+    "url": "https://www.chicagohouse.org/translife-care",
+    "phone": "773-673-9340",
+    "address": "1650 W 63rd St",
+    "services": [
+      "case-management",
+      "housing-emergency",
+      "housing-transitional",
+      "employment",
+      "legal",
+      "healthcare",
+      "community-referrals",
+      "benefits-navigation"
+    ],
+    "type": [
+      "nonprofit",
+      "drop-in"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Thursdays 2–5pm",
+      "es": "Jueves de 2 a 5pm"
+    },
+    "notes": {
+      "en": "Run by Chicago House, hosted at Englewood Family Health Center.",
+      "es": "Operado por Chicago House, alojado en el Centro de Salud Familiar de Englewood."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "trans",
+      "lgbtq"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "chicago-house"
+    ],
+    "locations": [
+      "englewood",
+      "south-side"
+    ]
+  },
+  {
+    "id": "chicago-house",
+    "name": "Chicago House",
+    "short": {
+      "en": "LGBTQ+ org offering housing, case management, legal services, and employment with specific programs for trans/GNC people.",
+      "es": "Organización LGBTQ+ que ofrece vivienda, gestión de casos, servicios legales y empleo con programas específicos para personas trans/GNC."
+    },
+    "url": "https://www.chicagohouse.org",
+    "donate_url": "https://www.chicagohouse.org/donate",
+    "phone": "773-673-9340",
+    "address": "Multiple locations",
+    "services": [
+      "housing-emergency",
+      "housing-transitional",
+      "housing-affordable",
+      "case-management",
+      "employment",
+      "legal",
+      "legal-name-change",
+      "community-referrals",
+      "benefits-navigation"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Monday–Friday, 11am–7pm phone support",
+      "es": "Lunes a viernes, apoyo telefónico de 11am a 7pm"
+    },
+    "notes": {
+      "en": "TransLife Care is their trans-specific housing and services program. TransLegal provides free legal services for TGNC individuals at or below 300% FPL.",
+      "es": "TransLife Care es su programa de vivienda y servicios específico para personas trans. TransLegal ofrece servicios legales gratuitos para personas TGNC con ingresos hasta el 300% del FPL."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "lgbtq",
+      "trans",
+      "bipoc",
+      "unhoused"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "transafe-coh",
+      "transafe-taskforce",
+      "transafe-englewood"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "tapestry-360",
+    "name": "Tapestry 360 Health",
+    "short": {
+      "en": "FQHC with 15+ locations across the North Side. Primary care, dental, mental health, LGBTQ+ services, PrEP, HRT.",
+      "es": "FQHC con más de 15 ubicaciones en el North Side. Atención primaria, dental, salud mental, servicios LGBTQ+, PrEP, TRH."
+    },
+    "url": "https://tap360health.org",
+    "phone": "773-751-7800",
+    "address": "Multiple North Side locations",
+    "services": [
+      "healthcare",
+      "dental",
+      "mental-health",
+      "hrt",
+      "prep",
+      "substance-use",
+      "community-referrals",
+      "benefits-navigation",
+      "harm-reduction",
+      "sti-testing",
+      "reentry"
+    ],
+    "type": [
+      "nonprofit",
+      "fqhc"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Varies by location — many offer walk-in/same day",
+      "es": "Varía según la ubicación — muchos ofrecen atención sin cita el mismo día"
+    },
+    "notes": {
+      "en": "Formerly Heartland Health Centers, rebranded 2025. Strong on mental health and substance use alongside primary care.",
+      "es": "Anteriormente Heartland Health Centers, renombrado en 2025. Fuerte en salud mental y uso de sustancias además de atención primaria."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "kids",
+      "lgbtq",
+      "senior"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "north-side",
+      "northwest-side"
+    ]
+  },
+  {
+    "id": "erie-family-health",
+    "name": "Erie Family Health Centers",
+    "short": {
+      "en": "Bilingual FQHC serving NW and West Side communities. Primary care, dental, OB/GYN, behavioral health.",
+      "es": "FQHC bilingüe que sirve a las comunidades del NW y West Side. Atención primaria, dental, ginecología y obstetricia, salud conductual."
+    },
+    "url": "https://www.eriefamilyhealth.org",
+    "phone": "312-666-3494",
+    "address": "Multiple NW/West Side locations",
+    "services": [
+      "healthcare",
+      "dental",
+      "mental-health",
+      "reproductive-health",
+      "community-referrals",
+      "substance-use"
+    ],
+    "type": [
+      "nonprofit",
+      "fqhc"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Varies by location",
+      "es": "Varía según la ubicación"
+    },
+    "notes": {
+      "en": "Sliding scale, no one turned away. Primarily serves NW/West Side immigrant and low-income communities.",
+      "es": "Escala móvil, nadie es rechazado. Sirve principalmente a comunidades inmigrantes y de bajos ingresos del NW/West Side."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "immigrant",
+      "hispanic",
+      "general",
+      "kids"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "northwest-side",
+      "west-side"
+    ]
+  },
+  {
+    "id": "alivio-medical",
+    "name": "Alivio Medical Center",
+    "short": {
+      "en": "Bilingual FQHC serving SW Side. Primary care, dental, behavioral health, OB/GYN, pharmacy, WIC, benefits enrollment.",
+      "es": "FQHC bilingüe que sirve al SW Side. Atención primaria, dental, salud conductual, ginecología, farmacia, WIC, inscripción a beneficios."
+    },
+    "url": "https://aliviomedical.org",
+    "phone": "312-738-1414",
+    "address": "Multiple SW Side locations",
+    "services": [
+      "healthcare",
+      "dental",
+      "mental-health",
+      "reproductive-health",
+      "benefits-navigation",
+      "community-referrals",
+      "childcare"
+    ],
+    "type": [
+      "nonprofit",
+      "fqhc"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Walk-in available, open Saturdays",
+      "es": "Atención sin cita disponible, abierto los sábados"
+    },
+    "notes": {
+      "en": "Service area covers Pilsen, Little Village, Gage Park, Back of the Yards, Brighton Park, Bridgeport, McKinley Park. Some reports of long waits — call ahead.",
+      "es": "El área de servicio cubre Pilsen, Little Village, Gage Park, Back of the Yards, Brighton Park, Bridgeport, McKinley Park. Algunos reportes de largas esperas — llama antes de ir."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "hispanic",
+      "immigrant",
+      "undocumented",
+      "general",
+      "kids"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "southwest-side",
+      "south-side"
+    ]
+  },
+  {
+    "id": "cook-county-health",
+    "name": "Cook County Health / CareLink",
+    "short": {
+      "en": "Public hospital system covering most services regardless of insurance. CareLink is their free sliding scale enrollment program.",
+      "es": "Sistema hospitalario público que cubre la mayoría de los servicios independientemente del seguro. CareLink es su programa gratuito de inscripción en escala móvil."
+    },
+    "url": "https://cookcountyhealth.org/carelink",
+    "phone": "312-864-0200",
+    "address": "Multiple locations — Stroger Hospital, Provident Hospital, clinics citywide",
+    "services": [
+      "healthcare",
+      "dental",
+      "mental-health",
+      "substance-use",
+      "reproductive-health",
+      "benefits-navigation"
+    ],
+    "type": [
+      "government",
+      "fqhc"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "donate_url": "https://healthfoundationcc.org",
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Varies by location",
+      "es": "Varía según la ubicación"
+    },
+    "notes": {
+      "en": "CareLink covers or discounts most services for Cook County residents regardless of insurance or immigration status. A residency letter from a social service agency is accepted as proof of residency.",
+      "es": "CareLink cubre o descuenta la mayoría de los servicios para residentes del Condado de Cook independientemente del seguro o estatus migratorio. Una carta de residencia de una agencia de servicios sociales se acepta como prueba de residencia."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "kids",
+      "men",
+      "senior",
+      "undocumented",
+      "unhoused"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "planned-parenthood-il",
+    "name": "Planned Parenthood Illinois",
+    "short": {
+      "en": "Reproductive and sexual healthcare, gender-affirming care, STI/HIV testing. Sliding scale.",
+      "es": "Atención de salud reproductiva y sexual, atención afirmativa de género, pruebas de ITS/VIH. Escala móvil."
+    },
+    "url": "https://www.plannedparenthood.org/planned-parenthood-illinois",
+    "phone": null,
+    "address": "Multiple locations — West Side, Near North, Far North, Loop, South Side",
+    "services": [
+      "healthcare",
+      "reproductive-health",
+      "sti-testing",
+      "prep",
+      "hrt"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Varies by location",
+      "es": "Varía según la ubicación"
+    },
+    "notes": {
+      "en": "Cannot currently accept Medicaid due to federal funding restrictions (as of 2025). Sliding scale for uninsured patients.",
+      "es": "Actualmente no puede aceptar Medicaid debido a restricciones de financiamiento federal (a partir de 2025). Escala móvil para pacientes sin seguro."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "lgbtq",
+      "trans"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "collaborative-bridges",
+    "name": "Collaborative Bridges Wellness Center",
+    "short": {
+      "en": "Walk-in behavioral health center in Garfield Park. Mental health, substance use, crisis support.",
+      "es": "Centro de salud conductual sin cita en Garfield Park. Salud mental, uso de sustancias, apoyo en crisis."
+    },
+    "url": "https://thecollaborativebridges.org",
+    "phone": "872-235-0777",
+    "address": "4223 W Lake St",
+    "services": [
+      "mental-health",
+      "substance-use",
+      "crisis",
+      "case-management",
+      "community-referrals",
+      "healthcare"
+    ],
+    "type": [
+      "nonprofit",
+      "drop-in"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday–Friday, 8:30am–6pm, walk-in welcome",
+      "es": "Lunes a viernes, 8:30am–6pm, se aceptan visitas sin cita"
+    },
+    "notes": {
+      "en": "8 participating organizations. Opened 2025. West Side focused.",
+      "es": "8 organizaciones participantes. Abrió en 2025. Enfocado en el West Side."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "men",
+      "unhoused"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "bobby-e-wright",
+      "humboldt-park-health",
+      "loretto-hospital"
+    ],
+    "locations": [
+      "garfield-park",
+      "west-side"
+    ]
+  },
+  {
+    "id": "bobby-e-wright",
+    "name": "Bobby E. Wright Comprehensive Behavioral Health Center",
+    "short": {
+      "en": "All ages walk-in mental health, substance use, and crisis services on the West Side. No one turned away.",
+      "es": "Servicios de salud mental, uso de sustancias y crisis para todas las edades sin cita en el West Side. Nadie es rechazado."
+    },
+    "url": "https://bewcbhc.org",
+    "phone": "773-722-7900",
+    "address": "5816 W Division St",
+    "services": [
+      "mental-health",
+      "substance-use",
+      "crisis",
+      "case-management",
+      "harm-reduction"
+    ],
+    "type": [
+      "nonprofit",
+      "drop-in"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Monday–Friday, 8:30am–5pm walk-in. Also 9 S Kedzie Ave for addictions walk-in.",
+      "es": "Lunes a viernes, 8:30am–5pm sin cita. También en 9 S Kedzie Ave para atención de adicciones sin cita."
+    },
+    "notes": {
+      "en": "Sliding scale, no one turned away for inability to pay.",
+      "es": "Escala móvil, nadie es rechazado por no poder pagar."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "bipoc",
+      "general",
+      "men"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "collaborative-bridges"
+    ],
+    "locations": [
+      "austin",
+      "garfield-park",
+      "west-side"
+    ]
+  },
+  {
+    "id": "la-casa-norte",
+    "name": "La Casa Norte",
+    "short": {
+      "en": "Community hub in Humboldt Park serving youth and families experiencing homelessness. On-site Howard Brown clinic, food pantry, case management.",
+      "es": "Centro comunitario en Humboldt Park para jóvenes y familias que experimentan falta de hogar. Clínica de Howard Brown en el lugar, despensa de alimentos, gestión de casos."
+    },
+    "url": "https://www.lacasanorte.org",
+    "donate_url": "https://www.lacasanorte.org/donate",
+    "phone": "773-276-4900",
+    "address": "3533 W North Ave",
+    "services": [
+      "housing-emergency",
+      "housing-transitional",
+      "case-management",
+      "food",
+      "healthcare",
+      "mental-health",
+      "employment",
+      "education",
+      "community-referrals",
+      "immigration",
+      "day-space",
+      "youth-services",
+      "harm-reduction"
+    ],
+    "type": [
+      "nonprofit",
+      "drop-in",
+      "community-center"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday–Friday, 9am–5pm general. Monday 11am–2pm drop-in with food pantry and on-site case manager.",
+      "es": "Lunes a viernes, 9am–5pm general. Lunes de 11am a 2pm sin cita con despensa de alimentos y gestor de casos en el lugar."
+    },
+    "notes": {
+      "en": "Primary drop-in services for ages 16-24. Illinois Welcoming Center for newcomers on-site. Demand increased from 5,000 to 24,000 annually under Trump administration.",
+      "es": "Servicios principales sin cita para personas de 16 a 24 años. Centro de Bienvenida de Illinois para recién llegados en el lugar. La demanda aumentó de 5,000 a 24,000 anuales bajo la administración Trump."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "hispanic",
+      "immigrant",
+      "kids",
+      "unhoused",
+      "youth"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "humboldt-park",
+      "northwest-side",
+      "west-side"
+    ]
+  },
+  {
+    "id": "matthew-house",
+    "name": "Matthew House Chicago",
+    "short": {
+      "en": "South Side daytime drop-in serving all ages. Hot meals, showers, clothing, case management, housing assessment, job readiness.",
+      "es": "Centro diurno sin cita en el South Side para todas las edades. Comidas calientes, duchas, ropa, gestión de casos, evaluación de vivienda, preparación laboral."
+    },
+    "url": "https://mhchicago.org",
+    "phone": "773-536-6628",
+    "address": "3722 S Indiana Ave",
+    "services": [
+      "food",
+      "hot-meals",
+      "hygiene",
+      "showers",
+      "clothing",
+      "housing-emergency",
+      "case-management",
+      "employment",
+      "job-readiness",
+      "benefits-navigation",
+      "community-referrals",
+      "day-space",
+      "job-training",
+      "reentry"
+    ],
+    "type": [
+      "nonprofit",
+      "drop-in"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers",
+      "goods"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Monday–Friday, 6:30am–5pm. Saturday 6:30am–2pm.",
+      "es": "Lunes a viernes, 6:30am–5pm. Sábados 6:30am–2pm."
+    },
+    "notes": {
+      "en": "Only South Side daytime shelter. Non-gender specific. BSA-endorsed resource. Also offers DV intervention and SNAP employment services.",
+      "es": "Único refugio diurno en el South Side. No específico por género. Recurso respaldado por BSA. También ofrece intervención en violencia doméstica y servicios de empleo de SNAP."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "men",
+      "senior",
+      "unhoused",
+      "women",
+      "youth",
+      "returning-residents"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "bronzeville",
+      "south-side"
+    ]
+  },
+  {
+    "id": "life-is-work",
+    "name": "Life Is Work",
+    "short": {
+      "en": "First Black and Brown trans-led social services org in the Midwest. Case management, employment, legal, housing, food pantry, clothing.",
+      "es": "Primera organización de servicios sociales liderada por personas trans negras y morenas en el Medio Oeste. Gestión de casos, empleo, legal, vivienda, despensa de alimentos, ropa."
+    },
+    "url": "https://lifeiswork.org",
+    "phone": "312-796-6020",
+    "address": "5465 W Chicago Ave",
+    "services": [
+      "case-management",
+      "employment",
+      "job-readiness",
+      "legal",
+      "housing-emergency",
+      "housing-transitional",
+      "food",
+      "clothing",
+      "community-referrals",
+      "benefits-navigation",
+      "job-training",
+      "reentry"
+    ],
+    "type": [
+      "nonprofit",
+      "drop-in"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website for current hours",
+      "es": "Consulta el sitio web para los horarios actuales"
+    },
+    "notes": {
+      "en": "Solidarity Closet on-site for clothing. West Side location near Austin/Humboldt Park border.",
+      "es": "Solidarity Closet en el lugar para ropa. Ubicación en el West Side cerca de la frontera Austin/Humboldt Park."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "trans",
+      "bipoc",
+      "hispanic",
+      "returning-residents"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "austin",
+      "west-side"
+    ]
+  },
+  {
+    "id": "night-ministry",
+    "name": "The Night Ministry",
+    "short": {
+      "en": "Street outreach, emergency housing for youth 18-24, and Health Outreach Bus serving Humboldt Park and other neighborhoods.",
+      "es": "Trabajo de calle, vivienda de emergencia para jóvenes de 18 a 24 años y Autobús de Salud Comunitaria que sirve a Humboldt Park y otros vecindarios."
+    },
+    "url": "https://www.thenightministry.org",
+    "phone": "773-784-9000",
+    "address": "Multiple — The Crib shelter + mobile outreach",
+    "services": [
+      "housing-emergency",
+      "shelter",
+      "healthcare",
+      "food",
+      "case-management",
+      "substance-use",
+      "community-referrals",
+      "youth-services",
+      "harm-reduction",
+      "reentry"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "The Crib: 24/7 for residents. Health Outreach Bus: check schedule for Humboldt Park visits.",
+      "es": "The Crib: 24/7 para residentes. Autobús de Salud: consulta el horario para visitas a Humboldt Park."
+    },
+    "notes": {
+      "en": "The Crib is emergency housing for 18-24 only. Health Outreach Bus specifically comes to Humboldt Park with free healthcare, food, and referrals.",
+      "es": "The Crib es vivienda de emergencia solo para personas de 18 a 24 años. El Autobús de Salud viene específicamente a Humboldt Park con atención médica gratuita, alimentos y referencias."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "unhoused",
+      "lgbtq",
+      "men",
+      "youth"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "humboldt-park",
+      "north-side",
+      "west-side"
+    ]
+  },
+  {
+    "id": "gcfd",
+    "name": "Greater Chicago Food Depository",
+    "short": {
+      "en": "Largest food bank in Chicago. Find a food pantry near you or access food assistance programs.",
+      "es": "El banco de alimentos más grande de Chicago. Encuentra una despensa cerca de ti o accede a programas de asistencia alimentaria."
+    },
+    "url": "https://www.chicagosfoodbank.org",
+    "donate_url": "https://www.chicagosfoodbank.org/donate",
+    "phone": "773-247-3663",
+    "address": "4100 W Ann Lurie Pl",
+    "services": [
+      "food",
+      "benefits-navigation"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Use website to find pantry near you",
+      "es": "Usa el sitio web para encontrar una despensa cerca de ti"
+    },
+    "notes": {
+      "en": "Individuals go to member food pantries, not GCFD directly. Also helps with SNAP/Link, Medicaid, and other benefits enrollment.",
+      "es": "Las personas van a las despensas miembro, no directamente a GCFD. También ayuda con la inscripción en SNAP/Link, Medicaid y otros beneficios."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "kids",
+      "senior"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "cfsc",
+    "name": "Chicagoland Food Sovereignty Coalition",
+    "short": {
+      "en": "Network of 30+ neighborhood mutual aid groups across 25+ neighborhoods. Find your local group or volunteer.",
+      "es": "Red de más de 30 grupos de ayuda mutua en más de 25 vecindarios. Encuentra tu grupo local o sé voluntario."
+    },
+    "url": "https://www.chifoodsovereignty.com",
+    "donate_url": "https://opencollective.com/cfsc/contribute",
+    "phone": null,
+    "address": "Distributed — NW warehouse at 2311 N Keystone Ave",
+    "services": [
+      "food",
+      "food-delivery",
+      "community-referrals"
+    ],
+    "type": [
+      "mutual-aid"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers",
+      "goods"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Varies by neighborhood group",
+      "es": "Varía según el grupo del vecindario"
+    },
+    "notes": {
+      "en": "NW warehouse has more volunteers than needed — check /connect for neighborhood groups that need support. Rescues 30 tons of food per week.",
+      "es": "El almacén NW tiene más voluntarios de los necesarios — consulta /connect para grupos vecinales que necesitan apoyo. Rescata 30 toneladas de alimentos por semana."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [
+      "lsma",
+      "wsma",
+      "west-town-ma",
+      "edgewater-ma",
+      "hpsn",
+      "community-kitchen-chicago"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "love-fridge",
+    "name": "The Love Fridge",
+    "short": {
+      "en": "17 free community fridges across the city stocked with fresh food, dry goods, and household items.",
+      "es": "17 refrigeradores comunitarios gratuitos en toda la ciudad con alimentos frescos, productos secos y artículos del hogar."
+    },
+    "url": "https://www.thelovefridge.com",
+    "phone": null,
+    "address": "Multiple locations — see map on website",
+    "services": [
+      "food"
+    ],
+    "type": [
+      "mutual-aid"
+    ],
+    "org_needs": [
+      "donations",
+      "goods"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "24/7 walk-up access",
+      "es": "Acceso peatonal 24/7"
+    },
+    "notes": {
+      "en": "Quality and quantity varies as locations are stocked by community volunteers. Check website for map.",
+      "es": "La calidad y cantidad varía ya que las ubicaciones son abastecidas por voluntarios comunitarios. Consulta el sitio web para el mapa."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "community-kitchen-chicago",
+    "name": "Community Kitchen Chicago",
+    "short": {
+      "en": "Free meals and a comprehensive mutual aid map of food resources across Chicago.",
+      "es": "Comidas gratuitas y un mapa integral de ayuda mutua de recursos alimentarios en todo Chicago."
+    },
+    "url": "https://www.communitykitchenchicago.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "food",
+      "hot-meals",
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit",
+      "mutual-aid"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": {
+      "en": "Mutual aid map at communitykitchenchicago.org/mutual-aid-map is a comprehensive resource for neighborhood food programs.",
+      "es": "El mapa de ayuda mutua en communitykitchenchicago.org/mutual-aid-map es un recurso completo para programas alimentarios vecinales."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [
+      "cfsc"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "hpsn",
+    "name": "Humboldt Park Solidarity Network",
+    "short": {
+      "en": "Community-run free store and Food Not Bombs in one of Chicago's most ICE-targeted neighborhoods.",
+      "es": "Tienda gratuita comunitaria y Food Not Bombs en uno de los vecindarios más atacados por ICE en Chicago."
+    },
+    "url": "https://www.instagram.com/hpsolidaritynetwork",
+    "phone": null,
+    "address": "3519 W North Ave",
+    "services": [
+      "food",
+      "hot-meals",
+      "clothing",
+      "hygiene",
+      "community-referrals",
+      "education"
+    ],
+    "type": [
+      "mutual-aid",
+      "free-store"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers",
+      "goods"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday 4–6pm, Wednesday 4–6pm, Saturday 11am–2pm",
+      "es": "Lunes de 4 a 6pm, miércoles de 4 a 6pm, sábados de 11am a 2pm"
+    },
+    "notes": {
+      "en": "Same location as Humboldt Park Food Not Bombs (@foodnotbombshumboldtpark). Casa Hernandez community space.",
+      "es": "Misma ubicación que Humboldt Park Food Not Bombs (@foodnotbombshumboldtpark). Espacio comunitario Casa Hernandez."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "immigrant",
+      "hispanic"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [
+      "cfsc"
+    ],
+    "locations": [
+      "humboldt-park",
+      "west-side",
+      "northwest-side"
+    ]
+  },
+  {
+    "id": "lsma",
+    "name": "Logan Square Mutual Aid",
+    "short": {
+      "en": "Mutual aid network serving Logan Square with grocery delivery, financial aid, and community support.",
+      "es": "Red de ayuda mutua que sirve a Logan Square con entrega de alimentos, ayuda financiera y apoyo comunitario."
+    },
+    "url": "https://logansquaremutualaid.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "food",
+      "food-delivery",
+      "financial-assistance",
+      "community-referrals"
+    ],
+    "type": [
+      "mutual-aid"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": {
+      "en": "Large entry point for NW Side mutual aid. Part of CFSC network. At volunteer capacity — check with them before sending more volunteers.",
+      "es": "Gran punto de entrada para la ayuda mutua del NW Side. Parte de la red CFSC. Con capacidad de voluntarios al límite — consulta antes de enviar más voluntarios."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [
+      "cfsc"
+    ],
+    "locations": [
+      "logan-square",
+      "northwest-side"
+    ]
+  },
+  {
+    "id": "west-town-ma",
+    "name": "West Town Mutual Aid",
+    "short": {
+      "en": "All-volunteer mutual aid in West Town, Ukrainian Village, Wicker Park, and Bucktown.",
+      "es": "Ayuda mutua completamente voluntaria en West Town, Ukrainian Village, Wicker Park y Bucktown."
+    },
+    "url": "https://westtownmutualaid.com",
+    "phone": null,
+    "address": null,
+    "services": [
+      "food",
+      "food-delivery",
+      "financial-assistance",
+      "community-referrals"
+    ],
+    "type": [
+      "mutual-aid"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": null,
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [
+      "cfsc"
+    ],
+    "locations": [
+      "west-town",
+      "ukrainian-village",
+      "wicker-park",
+      "bucktown",
+      "northwest-side",
+      "west-side"
+    ]
+  },
+  {
+    "id": "wsma",
+    "name": "West Side Mutual Aid",
+    "short": {
+      "en": "Mutual aid network serving Garfield Park, Austin, North Lawndale, Hermosa, and West Loop.",
+      "es": "Red de ayuda mutua que sirve a Garfield Park, Austin, North Lawndale, Hermosa y West Loop."
+    },
+    "url": "https://westsidemutualaid.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "food",
+      "food-delivery",
+      "financial-assistance",
+      "community-referrals"
+    ],
+    "type": [
+      "mutual-aid"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": null,
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [
+      "cfsc"
+    ],
+    "locations": [
+      "garfield-park",
+      "austin",
+      "north-lawndale",
+      "hermosa",
+      "west-side"
+    ]
+  },
+  {
+    "id": "pilsen-solidarity",
+    "name": "Pilsen Solidarity Network",
+    "short": {
+      "en": "Neighbor-to-neighbor mutual aid and free store in Pilsen.",
+      "es": "Ayuda mutua de vecino a vecino y tienda gratuita en Pilsen."
+    },
+    "url": "https://pilsenmutualaid.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "food",
+      "clothing",
+      "financial-assistance",
+      "community-referrals"
+    ],
+    "type": [
+      "mutual-aid",
+      "free-store"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers",
+      "goods"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Every other Saturday — check @pilsenfreestore on Instagram",
+      "es": "Cada dos sábados — consulta @pilsenfreestore en Instagram"
+    },
+    "notes": {
+      "en": "Email: pilsensn@gmail.com. Distribution events at Harrison Park or Pilsen Alliance.",
+      "es": "Correo: pilsensn@gmail.com. Eventos de distribución en Harrison Park o Pilsen Alliance."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "hispanic",
+      "immigrant"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [],
+    "locations": [
+      "pilsen",
+      "south-side",
+      "southwest-side"
+    ]
+  },
+  {
+    "id": "gplxc",
+    "name": "Gage Park Latinx Council",
+    "short": {
+      "en": "Queer, DACA, and Latinx-led grassroots org in Gage Park with two community centers, mutual aid, and wellness programs.",
+      "es": "Organización de base liderada por personas queer, DACA y latinx en Gage Park con dos centros comunitarios, ayuda mutua y programas de bienestar."
+    },
+    "url": "https://www.gplxc.org",
+    "donate_url": "https://www.gplxc.org/donate",
+    "phone": "708-872-8798",
+    "address": "2711 W 51st St (Centro Cultural) + 5251 S Kedzie Ave (Bienestar)",
+    "services": [
+      "food",
+      "clothing",
+      "financial-assistance",
+      "community-referrals",
+      "education",
+      "mental-health",
+      "immigration",
+      "know-your-rights"
+    ],
+    "type": [
+      "mutual-aid",
+      "nonprofit",
+      "community-center"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers",
+      "goods"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": {
+      "en": "Distributed over $100k to asylum seekers and undocumented community. Annual winter coat drive serving 500+ residents. Bienestar center focuses on wellness for mothers.",
+      "es": "Ha distribuido más de $100,000 a solicitantes de asilo y comunidad indocumentada. Colecta anual de abrigos de invierno para más de 500 residentes. El centro Bienestar se enfoca en el bienestar de las madres."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "hispanic",
+      "immigrant",
+      "kids",
+      "lgbtq",
+      "undocumented",
+      "women"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [],
+    "locations": [
+      "gage-park",
+      "southwest-side",
+      "south-side"
+    ]
+  },
+  {
+    "id": "chicago-jail-support",
+    "name": "Chicago Community Jail Support",
+    "short": {
+      "en": "Meets people being released from Cook County Jail with food, supplies, rides, and a friendly face. Daily, no experience needed.",
+      "es": "Recibe a personas que salen de la Cárcel del Condado de Cook con comida, suministros, transporte y una cara amigable. Diario, no se necesita experiencia."
+    },
+    "url": "https://tinyurl.com/ChiJailSup",
+    "phone": null,
+    "address": "26th St & S California Ave (Cook County Jail)",
+    "services": [
+      "food",
+      "community-referrals",
+      "crisis",
+      "housing-emergency",
+      "reentry"
+    ],
+    "type": [
+      "mutual-aid"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "6:30am–11:30pm daily",
+      "es": "6:30am–11:30pm todos los días"
+    },
+    "notes": {
+      "en": "Just show up. Chronically understaffed. Can also help from home or by car. Strong onramp for volunteers wanting to do direct mutual aid work.",
+      "es": "Solo preséntate. Crónicamente con falta de personal. También puedes ayudar desde casa o en auto. Buen punto de entrada para voluntarios que quieren hacer trabajo directo de ayuda mutua."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "unhoused",
+      "hispanic",
+      "youth",
+      "general",
+      "bipoc",
+      "returning-residents"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [],
+    "locations": [
+      "little-village",
+      "mckinley-park",
+      "southwest-side",
+      "south-side"
+    ]
+  },
+  {
+    "id": "rogers-park-free-store",
+    "name": "Rogers Park Free Store",
+    "short": {
+      "en": "Free store serving Rogers Park, Edgewater, and Uptown. Open Saturdays.",
+      "es": "Tienda gratuita que sirve a Rogers Park, Edgewater y Uptown. Abierta los sábados."
+    },
+    "url": "https://linktr.ee/rp_free_store",
+    "phone": null,
+    "address": null,
+    "services": [
+      "food",
+      "clothing",
+      "hygiene",
+      "community-referrals"
+    ],
+    "type": [
+      "mutual-aid",
+      "free-store"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers",
+      "goods"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Saturdays 12–2pm",
+      "es": "Sábados de 12 a 2pm"
+    },
+    "notes": null,
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [],
+    "locations": [
+      "rogers-park",
+      "north-side"
+    ]
+  },
+  {
+    "id": "edgewater-ma",
+    "name": "Edgewater Mutual Aid Network",
+    "short": {
+      "en": "Abolitionist mutual aid network and free store in Edgewater.",
+      "es": "Red de ayuda mutua abolicionista y tienda gratuita en Edgewater."
+    },
+    "url": "https://edgewatermutualaid.org",
+    "phone": null,
+    "address": "1020 W Bryn Mawr Ave",
+    "services": [
+      "food",
+      "clothing",
+      "financial-assistance",
+      "community-referrals"
+    ],
+    "type": [
+      "mutual-aid",
+      "free-store"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers",
+      "goods"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Saturdays 12:15–1:30pm",
+      "es": "Sábados de 12:15 a 1:30pm"
+    },
+    "notes": {
+      "en": "Part of CFSC network.",
+      "es": "Parte de la red CFSC."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [
+      "cfsc"
+    ],
+    "locations": [
+      "edgewater",
+      "north-side"
+    ]
+  },
+  {
+    "id": "fnb-chicago",
+    "name": "Food Not Bombs Chicago",
+    "short": {
+      "en": "Free vegan and vegetarian meals shared with anyone who is hungry.",
+      "es": "Comidas veganas y vegetarianas gratuitas compartidas con cualquier persona que tenga hambre."
+    },
+    "url": "https://www.foodnotbombs.net/illinois.html",
+    "phone": null,
+    "address": null,
+    "services": [
+      "food",
+      "hot-meals"
+    ],
+    "type": [
+      "mutual-aid"
+    ],
+    "org_needs": [
+      "volunteers"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Check local chapters",
+      "es": "Consulta los capítulos locales"
+    },
+    "notes": {
+      "en": "Rogers Park (@rogersparkfoodnotbombs) and Humboldt Park (@foodnotbombshumboldtpark) are most active Chicago chapters.",
+      "es": "Rogers Park (@rogersparkfoodnotbombs) y Humboldt Park (@foodnotbombshumboldtpark) son los capítulos más activos de Chicago."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "mto",
+    "name": "Metropolitan Tenants Organization",
+    "short": {
+      "en": "Tenant rights hotline, eviction prevention, housing violations, legal aid, and community organizing.",
+      "es": "Línea de derechos de inquilinos, prevención de desalojos, violaciones de vivienda, ayuda legal y organización comunitaria."
+    },
+    "url": "https://tenants-rights.org",
+    "phone": "773-292-4988",
+    "address": "601 S California Ave",
+    "services": [
+      "legal-tenant-rights",
+      "housing-financial-aid",
+      "case-management",
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit",
+      "advocacy"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Hotline Monday–Friday, 1–5pm",
+      "es": "Línea directa de lunes a viernes, de 1 a 5pm"
+    },
+    "notes": {
+      "en": "Located at 601 S California (Westside Justice Center/601 Hub). Walk-in appointments available — check schedule.",
+      "es": "Ubicado en 601 S California (Westside Justice Center/601 Hub). Citas sin cita disponibles — consulta el horario."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "spanish-coalition-housing",
+    "name": "Spanish Coalition for Housing",
+    "short": {
+      "en": "Financial aid, advocacy, and housing counseling for renters and homeowners.",
+      "es": "Ayuda financiera, defensa y asesoramiento de vivienda para inquilinos y propietarios."
+    },
+    "url": "https://www.spanishcoalition.org",
+    "phone": "773-342-7575",
+    "address": "1922 N Pulaski Rd",
+    "services": [
+      "housing-financial-aid",
+      "housing-ownership-prep",
+      "legal-tenant-rights",
+      "benefits-navigation",
+      "case-management"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": {
+      "en": "HUD-certified housing counseling agency since 1973. Note: homebuyer education course has a $100 fee. Other services free.",
+      "es": "Agencia de asesoramiento de vivienda certificada por HUD desde 1973. Nota: el curso de educación para compradores de vivienda tiene un costo de $100. Otros servicios son gratuitos."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "hispanic",
+      "immigrant"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [],
+    "locations": [
+      "humboldt-park",
+      "northwest-side",
+      "west-side",
+      "citywide"
+    ]
+  },
+  {
+    "id": "palenque-lsna",
+    "name": "Palenque LSNA",
+    "short": {
+      "en": "Woman of color-led community org in Logan Square/Hermosa/Avondale. Immigration legal services, DACA, Know Your Rights, housing advocacy, parent and youth programs.",
+      "es": "Organización comunitaria liderada por mujeres de color en Logan Square/Hermosa/Avondale. Servicios legales de inmigración, DACA, Conoce Tus Derechos, defensa de vivienda, programas para padres y jóvenes."
+    },
+    "url": "https://palenquelsna.org",
+    "phone": "773-384-4370",
+    "address": "2840 N Milwaukee Ave",
+    "services": [
+      "legal-immigration",
+      "daca",
+      "know-your-rights",
+      "housing-financial-aid",
+      "education",
+      "community-referrals",
+      "case-management"
+    ],
+    "type": [
+      "nonprofit",
+      "community-center",
+      "advocacy"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": {
+      "en": "Email: info@palenquelsna.org. Centering Latinx, Indigenous, and immigrant communities.",
+      "es": "Correo: info@palenquelsna.org. Centrado en comunidades latinx, indígenas e inmigrantes."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "hispanic",
+      "immigrant",
+      "kids",
+      "undocumented",
+      "youth"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "icirr"
+    ],
+    "locations": [
+      "logan-square",
+      "hermosa",
+      "avondale",
+      "northwest-side"
+    ]
+  },
+  {
+    "id": "northwest-center",
+    "name": "Northwest Center Chicago",
+    "short": {
+      "en": "Resident-led community org in Belmont Cragin. Housing stability, immigration, financial empowerment, community organizing.",
+      "es": "Organización comunitaria liderada por residentes en Belmont Cragin. Estabilidad de vivienda, inmigración, empoderamiento financiero, organización comunitaria."
+    },
+    "url": "https://northwestcenterchicago.org",
+    "donate_url": "https://northwestcenterchicago.org/donate",
+    "phone": null,
+    "address": "5233 W Diversey Ave",
+    "services": [
+      "housing-financial-aid",
+      "legal-immigration",
+      "know-your-rights",
+      "financial-assistance",
+      "education",
+      "community-referrals",
+      "benefits-navigation"
+    ],
+    "type": [
+      "nonprofit",
+      "community-center",
+      "advocacy",
+      "organizing"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": {
+      "en": "Founded 2008 as anti-predatory lending task force, now 40 staff. Clients and community members regularly join staff and board. Resident-led model.",
+      "es": "Fundado en 2008 como grupo de trabajo contra préstamos predatorios, ahora con 40 empleados. Clientes y miembros de la comunidad se unen regularmente al personal y la junta. Modelo liderado por residentes."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "hispanic",
+      "immigrant",
+      "undocumented",
+      "bipoc"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "icirr"
+    ],
+    "locations": [
+      "belmont-cragin",
+      "northwest-side",
+      "west-side"
+    ]
+  },
+  {
+    "id": "enlace-chicago",
+    "name": "Enlace Chicago",
+    "short": {
+      "en": "Community org in Little Village serving 8,000+ youth and adults through education, immigration, health, and violence prevention.",
+      "es": "Organización comunitaria en Little Village que sirve a más de 8,000 jóvenes y adultos a través de educación, inmigración, salud y prevención de violencia."
+    },
+    "url": "https://enlacechicago.org",
+    "donate_url": "https://enlacechicago.org/donate",
+    "phone": null,
+    "address": null,
+    "services": [
+      "education",
+      "legal-immigration",
+      "know-your-rights",
+      "healthcare",
+      "community-referrals",
+      "case-management",
+      "youth-services"
+    ],
+    "type": [
+      "nonprofit",
+      "community-center",
+      "advocacy"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": {
+      "en": "Staff are majority community residents. Facing federal funding cuts as of 2025-2026.",
+      "es": "El personal es mayoritariamente residente de la comunidad. Enfrentando recortes de financiamiento federal a partir de 2025-2026."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "hispanic",
+      "immigrant",
+      "youth",
+      "general",
+      "kids"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "icirr"
+    ],
+    "locations": [
+      "little-village",
+      "southwest-side",
+      "west-side"
+    ]
+  },
+  {
+    "id": "brighton-park-nc",
+    "name": "Brighton Park Neighborhood Council",
+    "short": {
+      "en": "Immigrant-led SW Side org covering housing, immigrant rights, school improvement, youth voice, and community organizing.",
+      "es": "Organización del SW Side liderada por inmigrantes que cubre vivienda, derechos de inmigrantes, mejora escolar, voz juvenil y organización comunitaria."
+    },
+    "url": "https://bpncchicago.org",
+    "donate_url": "https://bpncchicago.org/donate",
+    "phone": null,
+    "address": null,
+    "services": [
+      "housing-financial-aid",
+      "legal-immigration",
+      "know-your-rights",
+      "education",
+      "community-referrals",
+      "case-management"
+    ],
+    "type": [
+      "nonprofit",
+      "community-center",
+      "advocacy",
+      "organizing"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": {
+      "en": "Currently suing US Dept of Education over unlawful termination of $60M in Full Service Community Schools funding.",
+      "es": "Actualmente demandando al Departamento de Educación de EE.UU. por la terminación ilegal de $60M en financiamiento de Escuelas Comunitarias de Servicio Completo."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "hispanic",
+      "immigrant",
+      "youth",
+      "general",
+      "kids"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "icirr"
+    ],
+    "locations": [
+      "brighton-park",
+      "southwest-side"
+    ]
+  },
+  {
+    "id": "tjlp",
+    "name": "Transformative Justice Law Project of Illinois",
+    "short": {
+      "en": "Free monthly name change clinic and trans-specific legal services. Last Friday of every month at the Daley Center.",
+      "es": "Clínica gratuita mensual de cambio de nombre y servicios legales específicos para personas trans. Último viernes de cada mes en el Daley Center."
+    },
+    "url": "https://www.tjlp.org",
+    "phone": "312-558-1472",
+    "address": "55 W Randolph St, Room 1202 (Daley Center)",
+    "services": [
+      "legal",
+      "legal-name-change",
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit",
+      "legal-aid"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": false,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Last Friday of every month, 9am–3pm",
+      "es": "Último viernes de cada mes, de 9am a 3pm"
+    },
+    "notes": {
+      "en": "Email: namechange@tjlp.org. Attorneys and trained volunteers help file petitions, accompany to court, and navigate DMV, Social Security, and vital records. 2000+ names changed.",
+      "es": "Correo: namechange@tjlp.org. Abogados y voluntarios capacitados ayudan a presentar peticiones, acompañan al tribunal y navegan el DMV, Seguro Social y registros civiles. Más de 2000 nombres cambiados."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "trans",
+      "lgbtq"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "taskforce-chicago",
+    "name": "TaskForce Prevention & Community Services",
+    "short": {
+      "en": "LGBTQ+ youth of color on the West Side. Vogue School, health and wellness, clothing closet, PrEP access since 1990.",
+      "es": "Jóvenes LGBTQ+ de color en el West Side. Escuela de Vogue, salud y bienestar, guardarropa de ropa, acceso a PrEP desde 1990."
+    },
+    "url": "https://taskforcechicago.org",
+    "donate_url": "https://taskforcechicago.org/donate",
+    "phone": null,
+    "address": "9 N Cicero Ave",
+    "services": [
+      "healthcare",
+      "prep",
+      "sti-testing",
+      "mental-health",
+      "clothing",
+      "education",
+      "community-referrals",
+      "case-management",
+      "youth-services"
+    ],
+    "type": [
+      "nonprofit",
+      "community-center"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": {
+      "en": "90% Charity Navigator rating. Under-resourced relative to need.",
+      "es": "90% de calificación en Charity Navigator. Con menos recursos de los necesarios."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "lgbtq",
+      "trans",
+      "bipoc",
+      "hispanic",
+      "youth"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "transafe-taskforce"
+    ],
+    "locations": [
+      "austin",
+      "west-side"
+    ]
+  },
+  {
+    "id": "trans-up-front",
+    "name": "Trans Up Front Illinois",
+    "short": {
+      "en": "Trans-led community org recently granted 501c3 status. Community events, advocacy, and fundraising for trans youth and families.",
+      "es": "Organización comunitaria liderada por personas trans con estatus 501c3 recientemente otorgado. Eventos comunitarios, defensa y recaudación de fondos para jóvenes trans y familias."
+    },
+    "url": "https://transupfrontil.com",
+    "donate_url": "https://transupfrontil.com/donate",
+    "phone": null,
+    "address": null,
+    "services": [
+      "community-referrals",
+      "education",
+      "know-your-rights"
+    ],
+    "type": [
+      "nonprofit",
+      "advocacy",
+      "organizing"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Check website and social media",
+      "es": "Consulta el sitio web y las redes sociales"
+    },
+    "notes": {
+      "en": "Just received 501c3 status. Running fundraiser for Trans Chicago Empowerment Center which lost federal funding post-Trump executive orders.",
+      "es": "Acaba de recibir el estatus 501c3. Recaudando fondos para el Centro de Empoderamiento Trans de Chicago que perdió financiamiento federal tras las órdenes ejecutivas de Trump."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "trans",
+      "lgbtq",
+      "youth"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "all-chicago",
+    "name": "All Chicago",
+    "short": {
+      "en": "Non-profit providing emergency financial assistance and solutions for housing security.",
+      "es": "Organización sin fines de lucro que ofrece asistencia financiera de emergencia y soluciones para la seguridad de vivienda."
+    },
+    "url": "https://allchicago.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "housing-emergency",
+      "housing-financial-aid",
+      "financial-assistance",
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": null,
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "unhoused"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "chicago-housing-initiative",
+    "name": "Chicago Housing Initiative",
+    "short": {
+      "en": "Connects to groups offering emergency housing, low-income housing, cooling/heating assistance, and legal support.",
+      "es": "Conecta con grupos que ofrecen vivienda de emergencia, vivienda de bajos ingresos, asistencia de calefacción/refrigeración y apoyo legal."
+    },
+    "url": "https://chicagohousinginitiative.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "housing-emergency",
+      "housing-affordable",
+      "housing-financial-aid",
+      "legal-tenant-rights",
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit",
+      "advocacy"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": false,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": null,
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "chicago-abortion-fund",
+    "name": "Chicago Abortion Fund",
+    "short": {
+      "en": "Mutual aid providing financial, logistical, and emotional support to people seeking abortion care in Illinois.",
+      "es": "Ayuda mutua que proporciona apoyo financiero, logístico y emocional a personas que buscan atención de aborto en Illinois."
+    },
+    "url": "https://www.chicagoabortionfund.org",
+    "donate_url": "https://www.chicagoabortionfund.org/donate",
+    "phone": null,
+    "address": null,
+    "services": [
+      "reproductive-health",
+      "financial-assistance",
+      "community-referrals"
+    ],
+    "type": [
+      "mutual-aid",
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": null,
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "women",
+      "lgbtq",
+      "trans"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "period-collective",
+    "name": "Period Collective",
+    "short": {
+      "en": "Helps find free menstrual products through distribution locations across the city.",
+      "es": "Ayuda a encontrar productos menstruales gratuitos a través de ubicaciones de distribución en toda la ciudad."
+    },
+    "url": "https://theperiodcollective.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "hygiene"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations",
+      "goods"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Check website for distribution locations",
+      "es": "Consulta el sitio web para ubicaciones de distribución"
+    },
+    "notes": {
+      "en": "Does not do direct donations to individuals — find a distribution location near you.",
+      "es": "No hace donaciones directas a individuos — encuentra una ubicación de distribución cerca de ti."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "kids",
+      "women"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "diaper-bank",
+    "name": "Diaper Bank of Chicago",
+    "short": {
+      "en": "Helps find free diapers and baby hygiene supplies through distribution locations.",
+      "es": "Ayuda a encontrar pañales gratuitos y suministros de higiene para bebés a través de ubicaciones de distribución."
+    },
+    "url": "https://www.diaperchicago.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "hygiene"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations",
+      "goods"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": {
+      "en": "Limited direct donations — contact to find distribution locations near you.",
+      "es": "Donaciones directas limitadas — contacta para encontrar ubicaciones de distribución cerca de ti."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "kids"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "casa-al-fatiha",
+    "name": "Casa Al-Fatiha",
+    "short": {
+      "en": "Autonomous sanctuary house in Logan Square for LGBTQ+ asylum seekers and people released from detention.",
+      "es": "Casa santuario autónoma en Logan Square para solicitantes de asilo LGBTQ+ y personas liberadas de detención."
+    },
+    "url": "https://linktr.ee/CasaAlFatiha",
+    "phone": null,
+    "address": null,
+    "services": [
+      "housing-emergency",
+      "housing-transitional",
+      "community-referrals",
+      "legal-immigration"
+    ],
+    "type": [
+      "mutual-aid"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es",
+      "ar"
+    ],
+    "hours": {
+      "en": "Check Instagram @casaalfatiha",
+      "es": "Consulta Instagram @casaalfatiha"
+    },
+    "notes": {
+      "en": "Peer-led, not professional social workers. Specifically serves LGBTQ+ asylum seekers and people released from immigration detention. Works with ICDI.",
+      "es": "Liderado por pares, no trabajadores sociales profesionales. Sirve específicamente a solicitantes de asilo LGBTQ+ y personas liberadas de detención migratoria. Trabaja con ICDI."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "lgbtq",
+      "trans",
+      "immigrant",
+      "asylum-seeker"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "logan-square",
+      "northwest-side"
+    ]
+  },
+  {
+    "id": "inreach",
+    "name": "InReach",
+    "short": {
+      "en": "Searchable database of LGBTQ+ support orgs filterable by documentation requirements, cost, and service type.",
+      "es": "Base de datos buscable de organizaciones de apoyo LGBTQ+ filtrable por requisitos de documentación, costo y tipo de servicio."
+    },
+    "url": "https://inreach.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Online 24/7",
+      "es": "En línea 24/7"
+    },
+    "notes": {
+      "en": "Formerly AsylumConnect. Trans-led 501c3. Can filter out providers requiring fees, photo ID, insurance, or proof of income. Also available as free app.",
+      "es": "Anteriormente AsylumConnect. 501c3 liderado por personas trans. Puede filtrar proveedores que requieren tarifas, identificación con foto, seguro o comprobante de ingresos. También disponible como aplicación gratuita."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "lgbtq",
+      "trans",
+      "asylum-seeker",
+      "immigrant"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [
+      "queery",
+      "the-list-for-us"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "the-list-for-us",
+    "name": "The List For Us",
+    "short": {
+      "en": "Chicagoland-based directory of trans and GNC crisis and support resources.",
+      "es": "Directorio de recursos de crisis y apoyo para personas trans y GNC en el área de Chicago."
+    },
+    "url": "https://thelistforus.com",
+    "phone": null,
+    "address": null,
+    "services": [
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Online 24/7",
+      "es": "En línea 24/7"
+    },
+    "notes": {
+      "en": "Created by Ari Groner LCSW in partnership with Adler University.",
+      "es": "Creado por Ari Groner LCSW en asociación con la Universidad Adler."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "trans",
+      "lgbtq"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [
+      "inreach",
+      "queery"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "queery",
+    "name": "Queery",
+    "short": {
+      "en": "Searchable directory of LGBTQ+ services in the Chicagoland area.",
+      "es": "Directorio buscable de servicios LGBTQ+ en el área de Chicago."
+    },
+    "url": "https://queery.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Online 24/7",
+      "es": "En línea 24/7"
+    },
+    "notes": {
+      "en": "Maintained by Adler University. Also available as an app.",
+      "es": "Mantenido por la Universidad Adler. También disponible como aplicación."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "lgbtq",
+      "trans"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [
+      "inreach",
+      "the-list-for-us"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "swop-chicago",
+    "name": "SWOP Chicago",
+    "short": {
+      "en": "Black-led grassroots org providing direct aid and advocacy for sex workers.",
+      "es": "Organización de base liderada por personas negras que proporciona ayuda directa y defensa para trabajadores sexuales."
+    },
+    "url": "https://www.swopchicago.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "harm-reduction",
+      "community-referrals",
+      "legal",
+      "case-management"
+    ],
+    "type": [
+      "nonprofit",
+      "mutual-aid",
+      "advocacy"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": null,
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "bipoc",
+      "women",
+      "lgbtq"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "midwest-books-prisoners",
+    "name": "Midwest Books to Prisoners",
+    "short": {
+      "en": "Volunteer-run org sending free books to incarcerated people since 2004.",
+      "es": "Organización de voluntarios que envía libros gratuitos a personas encarceladas desde 2004."
+    },
+    "url": "https://midwestbookstoprisoners.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "education",
+      "community-referrals"
+    ],
+    "type": [
+      "mutual-aid"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers",
+      "goods"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Check website for volunteer sessions",
+      "es": "Consulta el sitio web para sesiones de voluntariado"
+    },
+    "notes": {
+      "en": "Good suburban-friendly volunteer opportunity — can do from home by mail.",
+      "es": "Buena oportunidad de voluntariado apta para suburbios — se puede hacer desde casa por correo."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "gerber-hart",
+    "name": "Gerber Hart Library",
+    "short": {
+      "en": "LGBTQ+ community library inside Howard Brown Health. Free drop-in, browse, and community events.",
+      "es": "Biblioteca comunitaria LGBTQ+ dentro de Howard Brown Health. Entrada gratuita sin cita, navegación y eventos comunitarios."
+    },
+    "url": "https://gerberhart.org",
+    "phone": null,
+    "address": "3656 N Halsted St (inside Howard Brown Health Clark building)",
+    "services": [
+      "day-space",
+      "education",
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit",
+      "community-center"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": true,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Check website",
+      "es": "Consulta el sitio web"
+    },
+    "notes": {
+      "en": "Free drop-in, just show up and browse. Hosts Trans 101 trainings and community events.",
+      "es": "Entrada gratuita sin cita, solo preséntate y navega. Ofrece capacitaciones Trans 101 y eventos comunitarios."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "lgbtq",
+      "trans",
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [
+      "howard-brown-health",
+      "center-on-halsted"
+    ],
+    "locations": [
+      "boystown"
+    ]
+  },
+  {
+    "id": "pcc-community-wellness",
+    "name": "PCC Community Wellness Center",
+    "short": {
+      "en": "FQHC network with 14 locations on Chicago's West and Northwest Sides. Primary care, dental, behavioral health, substance use, OB/midwifery, urgent care.",
+      "es": "Red de centros de salud FQHC con 14 ubicaciones en el West y Northwest Side de Chicago. Atención primaria, dental, salud conductual, uso de sustancias, obstetricia/partería, atención urgente."
+    },
+    "url": "https://www.pccwellness.org",
+    "phone": "708-383-0113",
+    "address": "Multiple West/Northwest Side locations — see website",
+    "services": [
+      "healthcare",
+      "dental",
+      "mental-health",
+      "substance-use",
+      "reproductive-health",
+      "benefits-navigation",
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit",
+      "fqhc"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Varies by location — call or see website",
+      "es": "Varía según la ubicación — llama o consulta el sitio web"
+    },
+    "notes": {
+      "en": "14 locations across West and Northwest Side and near west suburbs. Sliding scale, no one turned away. Also has a freestanding birth center and urban farm at select sites.",
+      "es": "14 ubicaciones en el West y Northwest Side y suburbios cercanos al oeste. Escala móvil, nadie es rechazado. También tiene un centro de parto independiente y una granja urbana en algunos lugares."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "immigrant",
+      "hispanic",
+      "general",
+      "kids"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "west-side",
+      "northwest-side"
+    ]
+  },
+  {
+    "id": "loretto-hospital",
+    "name": "Loretto Hospital",
+    "short": {
+      "en": "West Side safety net hospital in Austin. ER, primary care, behavioral health, substance use treatment, sliding scale. 76% of patients are on Medicaid.",
+      "es": "Hospital de red de seguridad en Austin en el West Side. Sala de urgencias, atención primaria, salud conductual, tratamiento de uso de sustancias, escala móvil. El 76% de los pacientes tienen Medicaid."
+    },
+    "url": "https://www.lorettohospital.org",
+    "phone": "773-626-4300",
+    "address": "645 S Central Ave",
+    "services": [
+      "healthcare",
+      "mental-health",
+      "substance-use",
+      "crisis",
+      "harm-reduction",
+      "reproductive-health",
+      "benefits-navigation"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "ER open 24/7. Outpatient clinic: call 773-854-5475 for appointments.",
+      "es": "Sala de urgencias abierta 24/7. Clínica ambulatoria: llama al 773-854-5475 para citas."
+    },
+    "notes": {
+      "en": "Sliding scale and payment assistance available. Accepts Medicaid, Medicare, and uninsured patients. Behavioral health unit, MAT (buprenorphine/naltrexone), detox, and outpatient substance use programs. Currently bracing for Medicaid funding cuts — call ahead to confirm program availability.",
+      "es": "Escala móvil y asistencia de pago disponibles. Acepta Medicaid, Medicare y pacientes sin seguro. Unidad de salud conductual, MAT (buprenorfina/naltrexona), desintoxicación y programas ambulatorios de uso de sustancias. Actualmente preparándose para recortes de financiamiento de Medicaid — llama antes para confirmar la disponibilidad del programa."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "bipoc",
+      "general",
+      "immigrant",
+      "kids",
+      "men",
+      "senior",
+      "undocumented",
+      "unhoused"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "collaborative-bridges"
+    ],
+    "locations": [
+      "austin",
+      "west-side"
+    ]
+  },
+  {
+    "id": "humboldt-park-health",
+    "name": "Humboldt Park Health",
+    "short": {
+      "en": "West Side safety net hospital explicitly welcoming to immigrants and uninsured. ER, primary care, behavioral health, community wellness programs.",
+      "es": "Hospital de red de seguridad en el West Side que da la bienvenida explícitamente a inmigrantes y personas sin seguro. Sala de urgencias, atención primaria, salud conductual, programas de bienestar comunitario."
+    },
+    "url": "https://hph.care",
+    "phone": "773-395-3000",
+    "address": "701 W North Ave",
+    "services": [
+      "healthcare",
+      "mental-health",
+      "substance-use",
+      "reproductive-health",
+      "crisis",
+      "benefits-navigation",
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "ER open 24/7. Outpatient services vary — see website.",
+      "es": "Sala de urgencias abierta 24/7. Los servicios ambulatorios varían — consulta el sitio web."
+    },
+    "notes": {
+      "en": "Explicitly states it is a safe place for everyone regardless of immigration status. Website links to ICIRR immigrant rights hotline. 200-bed safety net hospital serving Humboldt Park, West Town, East Garfield, and Austin.",
+      "es": "Declara explícitamente que es un lugar seguro para todos independientemente del estatus migratorio. El sitio web enlaza a la línea directa de derechos de inmigrantes de ICIRR. Hospital de red de seguridad de 200 camas que sirve a Humboldt Park, West Town, East Garfield y Austin."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "bipoc",
+      "general",
+      "hispanic",
+      "immigrant",
+      "kids",
+      "men",
+      "senior",
+      "undocumented",
+      "unhoused"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "collaborative-bridges"
+    ],
+    "locations": [
+      "humboldt-park",
+      "west-side",
+      "northwest-side"
+    ]
+  },
+  {
+    "id": "habilitative-systems",
+    "name": "Habilitative Systems Inc (HSI)",
+    "short": {
+      "en": "Black-led West Side org serving 7,000+ annually. Mental health, substance use, crisis triage, housing, employment, and services for people with developmental disabilities.",
+      "es": "Organización del West Side liderada por personas negras que sirve a más de 7,000 personas anualmente. Salud mental, uso de sustancias, triaje de crisis, vivienda, empleo y servicios para personas con discapacidades del desarrollo."
+    },
+    "url": "https://habilitative.org",
+    "phone": "773-261-2252",
+    "address": "415 S Kilpatrick Ave",
+    "services": [
+      "mental-health",
+      "substance-use",
+      "crisis",
+      "housing-transitional",
+      "housing-affordable",
+      "employment",
+      "case-management",
+      "community-referrals",
+      "harm-reduction",
+      "reentry"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Check website — neighborhood urgent mental health triage center also available at W Madison St location.",
+      "es": "Consulta el sitio web — centro de triaje de salud mental urgente del vecindario también disponible en la ubicación de W Madison St."
+    },
+    "notes": {
+      "en": "Sliding scale, no one turned away. Only West Side org specializing in developmental disabilities alongside full behavioral health services. Serves formerly incarcerated, veterans, seniors, youth, and people experiencing homelessness. 41 years of operation.",
+      "es": "Escala móvil, nadie es rechazado. Única organización del West Side especializada en discapacidades del desarrollo junto con servicios completos de salud conductual. Sirve a personas anteriormente encarceladas, veteranos, adultos mayores, jóvenes y personas sin hogar. 41 años de operación."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "unhoused",
+      "senior",
+      "men",
+      "youth",
+      "general",
+      "bipoc",
+      "returning-residents"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "austin",
+      "west-side"
+    ]
+  },
+  {
+    "id": "legal-aid-chicago",
+    "name": "Legal Aid Chicago",
+    "short": {
+      "en": "Midwest's largest free civil legal services provider. Housing, immigration, family law, workers' rights, public benefits, domestic violence. Cook County residents.",
+      "es": "El mayor proveedor de servicios legales civiles gratuitos del Medio Oeste. Vivienda, inmigración, derecho familiar, derechos laborales, beneficios públicos, violencia doméstica. Residentes del Condado de Cook."
+    },
+    "url": "https://legalaidchicago.org",
+    "phone": "312-341-1070",
+    "address": "120 S LaSalle St, Suite 900",
+    "services": [
+      "legal",
+      "legal-tenant-rights",
+      "legal-immigration",
+      "legal-name-change",
+      "benefits-navigation",
+      "case-management",
+      "community-referrals",
+      "reentry"
+    ],
+    "type": [
+      "nonprofit",
+      "legal-aid"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Phone intake Monday–Friday. Phone menu in English and Spanish — stay on the line for interpreter in other languages.",
+      "es": "Admisión telefónica de lunes a viernes. Menú telefónico en inglés y español — permanece en línea para intérprete en otros idiomas."
+    },
+    "notes": {
+      "en": "Must call or apply online to screen for eligibility — no walk-in intake. Free telephone interpreters available for all languages. 200+ attorneys. Also has a Juvenile Expungement Help Desk at 1100 S Hamilton Ave (walk-in, M-F 9am-4pm).",
+      "es": "Debes llamar o solicitar en línea para verificar elegibilidad — sin admisión sin cita. Intérpretes telefónicos gratuitos disponibles en todos los idiomas. Más de 200 abogados. También tiene un mostrador de ayuda para eliminación de antecedentes juveniles en 1100 S Hamilton Ave (sin cita, lunes a viernes 9am-4pm)."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "immigrant",
+      "unhoused",
+      "women",
+      "lgbtq"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [
+      "illinois-legal-aid-online"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "carpls",
+    "name": "CARPLS",
+    "short": {
+      "en": "Free legal advice hotline for Cook County residents covering all areas of civil and criminal law. Call or walk in to the Daley Center.",
+      "es": "Línea directa de asesoramiento legal gratuito para residentes del Condado de Cook que cubre todas las áreas del derecho civil y penal. Llama o visita el Daley Center sin cita."
+    },
+    "url": "https://carpls.org",
+    "phone": "312-738-9200",
+    "address": "35 E Wacker Dr, Suite 3000",
+    "services": [
+      "legal",
+      "legal-tenant-rights",
+      "community-referrals",
+      "benefits-navigation",
+      "reentry"
+    ],
+    "type": [
+      "nonprofit",
+      "legal-aid"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Hotline Monday–Friday. Also has pro se help desks at Daley Center and Markham Courthouse.",
+      "es": "Línea directa de lunes a viernes. También tiene mostradores de ayuda pro se en el Daley Center y el Tribunal de Markham."
+    },
+    "notes": {
+      "en": "Covers family, divorce, guardianship, eviction, landlord/tenant, foreclosure, housing discrimination, consumer, contracts, debt, and more. Also runs Cook County Legal Aid for Housing and Debt (CCLAHD) hotline: 855-956-5763.",
+      "es": "Cubre familia, divorcio, tutela, desalojo, arrendador/inquilino, ejecución hipotecaria, discriminación de vivienda, consumidor, contratos, deudas y más. También opera la línea directa de Ayuda Legal del Condado de Cook para Vivienda y Deuda (CCLAHD): 855-956-5763."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "cvls",
+    "name": "Chicago Volunteer Legal Services",
+    "short": {
+      "en": "Free pro bono legal services for low-income Cook County residents. Immigration, family law, housing, domestic violence, and more.",
+      "es": "Servicios legales pro bono gratuitos para residentes de bajos ingresos del Condado de Cook. Inmigración, derecho familiar, vivienda, violencia doméstica y más."
+    },
+    "url": "https://www.cvls.org",
+    "phone": "312-332-1624",
+    "address": "33 N Dearborn St, Suite 400",
+    "services": [
+      "legal",
+      "legal-tenant-rights",
+      "legal-immigration",
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit",
+      "legal-aid"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday–Thursday 9am–5pm, Friday 9am–4pm. Call to check eligibility — do not email.",
+      "es": "Lunes a jueves 9am–5pm, viernes 9am–4pm. Llama para verificar elegibilidad — no envíes correo electrónico."
+    },
+    "notes": {
+      "en": "Must call to check eligibility before visiting. Pro bono attorneys handle cases across immigration, family law, housing, and domestic violence.",
+      "es": "Debes llamar para verificar elegibilidad antes de visitar. Abogados pro bono manejan casos de inmigración, derecho familiar, vivienda y violencia doméstica."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "immigrant",
+      "women"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "illinois-legal-aid-online",
+    "name": "Illinois Legal Aid Online",
+    "short": {
+      "en": "Free online legal self-help tools, forms, and referrals covering housing, family, debt, work, immigration, and more. Available 24/7.",
+      "es": "Herramientas gratuitas de autoayuda legal en línea, formularios y referencias que cubren vivienda, familia, deudas, trabajo, inmigración y más. Disponible 24/7."
+    },
+    "url": "https://www.illinoislegalaid.org",
+    "phone": null,
+    "address": null,
+    "services": [
+      "legal",
+      "legal-tenant-rights",
+      "legal-immigration",
+      "benefits-navigation",
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": false,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Online 24/7",
+      "es": "En línea 24/7"
+    },
+    "notes": {
+      "en": "Free legal forms, plain-language guides, and referral tool. Also hosts Legal Aid Chicago's online intake. Good first stop for anyone who wants to understand their legal situation before calling an attorney.",
+      "es": "Formularios legales gratuitos, guías en lenguaje sencillo y herramienta de referencia. También aloja la admisión en línea de Legal Aid Chicago. Buen primer paso para cualquier persona que quiera entender su situación legal antes de llamar a un abogado."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "none",
+    "related": [
+      "legal-aid-chicago"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "nijc",
+    "name": "National Immigrant Justice Center",
+    "short": {
+      "en": "Free and low-cost immigration legal services for low-income immigrants. Asylum, deportation defense, DACA, LGBTQ+ immigrants, trafficking survivors.",
+      "es": "Servicios legales de inmigración gratuitos y de bajo costo para inmigrantes de bajos ingresos. Asilo, defensa contra deportación, DACA, inmigrantes LGBTQ+, sobrevivientes de trata."
+    },
+    "url": "https://immigrantjustice.org",
+    "phone": "312-660-1370",
+    "address": "111 W Jackson Blvd, Suite 800",
+    "services": [
+      "legal-immigration",
+      "daca",
+      "know-your-rights",
+      "legal",
+      "community-referrals",
+      "case-management"
+    ],
+    "type": [
+      "nonprofit",
+      "legal-aid",
+      "advocacy"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Monday–Friday 9am–5pm. Walk-up Immigration Court Help Desk: Tuesdays and Wednesdays 8:30am–3pm at 55 E Monroe St, Suite 1500.",
+      "es": "Lunes a viernes 9am–5pm. Mostrador de ayuda del Tribunal de Inmigración sin cita: martes y miércoles de 8:30am a 3pm en 55 E Monroe St, Suite 1500."
+    },
+    "notes": {
+      "en": "Serves low-income immigrants at or below 200% FPL. Has a specific LGBTQ+ Immigrant Rights Initiative. Free walk-up Immigration Court Help Desk — no appointment needed for those in removal proceedings.",
+      "es": "Sirve a inmigrantes de bajos ingresos al 200% o menos del FPL. Tiene una Iniciativa específica de Derechos de Inmigrantes LGBTQ+. Mostrador de ayuda gratuito del Tribunal de Inmigración sin cita — no se necesita cita para quienes están en procedimientos de deportación."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "immigrant",
+      "undocumented",
+      "asylum-seeker",
+      "lgbtq",
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "partial",
+    "related": [
+      "icirr"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "icirr",
+    "name": "ICIRR — Illinois Coalition for Immigrant and Refugee Rights",
+    "short": {
+      "en": "Statewide coalition connecting immigrants to legal aid, social services, public benefits, financial assistance, and Know Your Rights resources through 60+ member orgs.",
+      "es": "Coalición estatal que conecta a inmigrantes con ayuda legal, servicios sociales, beneficios públicos, asistencia financiera y recursos de Conoce Tus Derechos a través de más de 60 organizaciones miembro."
+    },
+    "url": "https://www.icirr.org",
+    "phone": "855-435-7693",
+    "address": "228 S Wabash, Suite 800",
+    "services": [
+      "legal-immigration",
+      "daca",
+      "know-your-rights",
+      "benefits-navigation",
+      "community-referrals",
+      "financial-assistance",
+      "immigration"
+    ],
+    "type": [
+      "nonprofit",
+      "advocacy",
+      "organizing"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Family Support Network hotline: 855-435-7693 (deportation/legal defense). Office: Monday–Friday 9am–5pm.",
+      "es": "Línea directa de la Red de Apoyo Familiar: 855-435-7693 (deportación/defensa legal). Oficina: lunes a viernes 9am–5pm."
+    },
+    "notes": {
+      "en": "ICIRR itself is a coalition — call the Family Support Network hotline (855-HELP-MY-FAMILY) to be connected to a member org near you. Also offers Ukrainian (1-833-242-3842) and Afghan (1-855-685-2998) arrival hotlines with interpretation.",
+      "es": "ICIRR en sí es una coalición — llama a la línea directa de la Red de Apoyo Familiar (855-HELP-MY-FAMILY) para ser conectado a una organización miembro cercana. También ofrece líneas directas de llegada para ucranianos (1-833-242-3842) y afganos (1-855-685-2998) con interpretación."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "immigrant",
+      "undocumented",
+      "asylum-seeker",
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "palenque-lsna",
+      "enlace-chicago",
+      "brighton-park-nc",
+      "northwest-center",
+      "nijc"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "nami-chicago",
+    "name": "NAMI Chicago",
+    "short": {
+      "en": "Free mental health support groups, helpline, education, and advocacy for people living with mental health conditions and their families.",
+      "es": "Grupos de apoyo de salud mental gratuitos, línea de ayuda, educación y defensa para personas que viven con condiciones de salud mental y sus familias."
+    },
+    "url": "https://www.namichicago.org",
+    "phone": "833-626-4244",
+    "address": "224 W Hill St, Suite 410",
+    "services": [
+      "mental-health",
+      "community-referrals",
+      "education"
+    ],
+    "type": [
+      "nonprofit",
+      "advocacy"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": true,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Helpline Monday–Friday 9am–5pm. Support groups meet virtually and in-person — see website for schedule.",
+      "es": "Línea de ayuda de lunes a viernes 9am–5pm. Los grupos de apoyo se reúnen virtualmente y en persona — consulta el sitio web para el horario."
+    },
+    "notes": {
+      "en": "Helpline: 833-NAMI-CHI (626-4244). Free peer-led support groups for people with mental health conditions and separate groups for family members. Also offers Spanish-language groups (NAMI Conexión, De Familia a Familia). Not a crisis line — call 988 for emergencies.",
+      "es": "Línea de ayuda: 833-NAMI-CHI (626-4244). Grupos de apoyo gratuitos liderados por pares para personas con condiciones de salud mental y grupos separados para familiares. También ofrece grupos en español (NAMI Conexión, De Familia a Familia). No es una línea de crisis — llama al 988 para emergencias."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "unhoused",
+      "general"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "between-friends",
+    "name": "Between Friends Chicago",
+    "short": {
+      "en": "24/7 domestic violence crisis hotline, counseling, legal advocacy, and court accompaniment. LGBTQ+ friendly.",
+      "es": "Línea directa de crisis de violencia doméstica 24/7, asesoramiento, defensa legal y acompañamiento al tribunal. Amigable con LGBTQ+."
+    },
+    "url": "https://betweenfriendschicago.org",
+    "phone": "800-603-4357",
+    "address": null,
+    "services": [
+      "crisis",
+      "mental-health",
+      "legal",
+      "case-management",
+      "community-referrals"
+    ],
+    "type": [
+      "nonprofit"
+    ],
+    "org_needs": [
+      "donations",
+      "volunteers"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": true,
+    "languages": [
+      "en"
+    ],
+    "hours": {
+      "en": "Crisis hotline 24/7. TTY: 773-274-6508.",
+      "es": "Línea directa de crisis 24/7. TTY: 773-274-6508."
+    },
+    "notes": {
+      "en": "Provides emotional support, safety planning, legal rights information, and referrals to shelters, healthcare, and employment services. Also offers cosmetology license renewal DV training.",
+      "es": "Proporciona apoyo emocional, planificación de seguridad, información sobre derechos legales y referencias a refugios, atención médica y servicios de empleo."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "kids",
+      "lgbtq",
+      "women"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "the-network-dv"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  },
+  {
+    "id": "the-network-dv",
+    "name": "The Network — Advocating Against Domestic Violence",
+    "short": {
+      "en": "Coalition of 40+ orgs operating the Illinois Domestic Violence Hotline. 24/7, multilingual, with referrals to shelter, legal aid, and support services statewide.",
+      "es": "Coalición de más de 40 organizaciones que opera la Línea Directa de Violencia Doméstica de Illinois. 24/7, multilingüe, con referencias a refugios, ayuda legal y servicios de apoyo en todo el estado."
+    },
+    "url": "https://www.the-network.org",
+    "phone": "877-863-6338",
+    "address": "1 E Wacker Dr, Suite 1630",
+    "services": [
+      "crisis",
+      "community-referrals",
+      "legal",
+      "shelter",
+      "case-management"
+    ],
+    "type": [
+      "nonprofit",
+      "advocacy"
+    ],
+    "org_needs": [
+      "donations"
+    ],
+    "onramp_seekers": true,
+    "onramp_volunteers": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "hours": {
+      "en": "Hotline 24/7. TTY: 877-863-6339. Available in 150+ languages.",
+      "es": "Línea directa 24/7. TTY: 877-863-6339. Disponible en más de 150 idiomas."
+    },
+    "notes": {
+      "en": "Operates the Illinois DV Hotline — callers receive crisis safety planning, emergency housing referrals, and connections to community-based providers. Spanish always available; 150+ language access through operator.",
+      "es": "Opera la Línea Directa de VD de Illinois — las personas que llaman reciben planificación de seguridad en crisis, referencias de vivienda de emergencia y conexiones con proveedores comunitarios. Español siempre disponible; acceso a más de 150 idiomas a través del operador."
+    },
+    "verified_date": "2026-03",
+    "status": "active",
+    "centered": [
+      "general",
+      "immigrant",
+      "kids",
+      "lgbtq",
+      "women"
+    ],
+    "not_for": [],
+    "documentation": "unknown",
+    "related": [
+      "between-friends"
+    ],
+    "locations": [
+      "citywide"
+    ]
+  }
+]

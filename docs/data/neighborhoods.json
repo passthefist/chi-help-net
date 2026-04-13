@@ -1,0 +1,119 @@
+{
+  "areas": {
+    "north": {
+      "label": "North Side",
+      "neighborhoods": [
+        { "id": "rogers-park", "label": "Rogers Park" },
+        { "id": "west-ridge", "label": "West Ridge" },
+        { "id": "andersonville", "label": "Andersonville" },
+        { "id": "edgewater", "label": "Edgewater" },
+        { "id": "uptown", "label": "Uptown" },
+        { "id": "lincoln-square", "label": "Lincoln Square" },
+        { "id": "ravenswood", "label": "Ravenswood" },
+        { "id": "north-center", "label": "North Center" },
+        { "id": "roscoe-village", "label": "Roscoe Village" },
+        { "id": "lakeview", "label": "Lakeview" },
+        { "id": "wrigleyville", "label": "Wrigleyville" },
+        { "id": "boystown", "label": "Boystown / Northalsted" },
+        { "id": "lincoln-park", "label": "Lincoln Park" },
+        { "id": "old-town", "label": "Old Town" },
+        { "id": "logan-square", "label": "Logan Square" },
+        { "id": "bucktown", "label": "Bucktown" },
+        { "id": "avondale", "label": "Avondale" }
+      ]
+    },
+    "northwest": {
+      "label": "Northwest Side",
+      "neighborhoods": [
+        { "id": "albany-park", "label": "Albany Park" },
+        { "id": "irving-park", "label": "Irving Park" },
+        { "id": "portage-park", "label": "Portage Park" },
+        { "id": "six-corners", "label": "Six Corners" },
+        { "id": "jefferson-park", "label": "Jefferson Park" },
+        { "id": "norwood-park", "label": "Norwood Park" },
+        { "id": "edison-park", "label": "Edison Park" },
+        { "id": "ohare", "label": "O'Hare" },
+        { "id": "dunning", "label": "Dunning" },
+        { "id": "belmont-cragin", "label": "Belmont Cragin" },
+        { "id": "hermosa", "label": "Hermosa" },
+        { "id": "montclare", "label": "Montclare" },
+        { "id": "humboldt-park", "label": "Humboldt Park" }
+      ]
+    },
+    "west": {
+      "label": "West Side",
+      "neighborhoods": [
+        { "id": "wicker-park", "label": "Wicker Park" },
+        { "id": "ukrainian-village", "label": "Ukrainian Village" },
+        { "id": "west-town", "label": "West Town" },
+        { "id": "noble-square", "label": "Noble Square" },
+        { "id": "east-village", "label": "East Village" },
+        { "id": "austin", "label": "Austin" },
+        { "id": "east-garfield-park", "label": "East Garfield Park" },
+        { "id": "west-garfield-park", "label": "West Garfield Park" },
+        { "id": "north-lawndale", "label": "North Lawndale" },
+        { "id": "little-village", "label": "Little Village" },
+        { "id": "pilsen", "label": "Pilsen" },
+        { "id": "near-west-side", "label": "Near West Side" },
+        { "id": "west-loop", "label": "West Loop" },
+        { "id": "greektown", "label": "Greektown" },
+        { "id": "university-village", "label": "University Village" }
+      ]
+    },
+    "southwest": {
+      "label": "Southwest Side",
+      "neighborhoods": [
+        { "id": "brighton-park", "label": "Brighton Park" },
+        { "id": "back-of-the-yards", "label": "Back of the Yards" },
+        { "id": "mckinley-park", "label": "McKinley Park" },
+        { "id": "gage-park", "label": "Gage Park" },
+        { "id": "chicago-lawn", "label": "Chicago Lawn" },
+        { "id": "marquette-park", "label": "Marquette Park" },
+        { "id": "west-lawn", "label": "West Lawn" },
+        { "id": "west-elsdon", "label": "West Elsdon" },
+        { "id": "clearing", "label": "Clearing" },
+        { "id": "garfield-ridge", "label": "Garfield Ridge" },
+        { "id": "archer-heights", "label": "Archer Heights" },
+        { "id": "englewood", "label": "Englewood" },
+        { "id": "west-englewood", "label": "West Englewood" }
+      ]
+    },
+    "south": {
+      "label": "South Side",
+      "neighborhoods": [
+        { "id": "bronzeville", "label": "Bronzeville" },
+        { "id": "grand-boulevard", "label": "Grand Boulevard" },
+        { "id": "kenwood", "label": "Kenwood" },
+        { "id": "hyde-park", "label": "Hyde Park" },
+        { "id": "woodlawn", "label": "Woodlawn" },
+        { "id": "south-shore", "label": "South Shore" },
+        { "id": "bridgeport", "label": "Bridgeport" },
+        { "id": "chinatown", "label": "Chinatown" },
+        { "id": "greater-grand-crossing", "label": "Greater Grand Crossing" },
+        { "id": "washington-park", "label": "Washington Park" },
+        { "id": "chatham", "label": "Chatham" },
+        { "id": "auburn-gresham", "label": "Auburn Gresham" },
+        { "id": "roseland", "label": "Roseland" },
+        { "id": "south-chicago", "label": "South Chicago" },
+        { "id": "beverly", "label": "Beverly" },
+        { "id": "morgan-park", "label": "Morgan Park" },
+        { "id": "mount-greenwood", "label": "Mount Greenwood" },
+        { "id": "pullman", "label": "Pullman" },
+        { "id": "hegewisch", "label": "Hegewisch" }
+      ]
+    },
+    "downtown": {
+      "label": "Downtown",
+      "neighborhoods": [
+        { "id": "loop", "label": "The Loop" },
+        { "id": "south-loop", "label": "South Loop" },
+        { "id": "river-north", "label": "River North" },
+        { "id": "streeterville", "label": "Streeterville" },
+        { "id": "gold-coast", "label": "Gold Coast" },
+        { "id": "near-north", "label": "Near North Side" },
+        { "id": "fulton-market", "label": "Fulton Market" },
+        { "id": "printer-row", "label": "Printer's Row" }
+      ]
+    }
+  }
+}
